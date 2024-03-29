@@ -1,0 +1,4656 @@
+<html>
+
+<head>
+    <title>Doctr predictions before and after training</title>
+</head>
+<style>
+    body {
+        background-color: antiquewhite;
+    }
+
+    div {
+        padding-top: 10px;
+        font-size: large;
+
+    }
+</style>
+
+<body>
+    <h1>DOCTR predictions</h1>
+    <div>
+        <img src='./images/1003.png'><br>
+        Predicted_before_training: the<br>
+        Predicted_after_training: the<br>
+        Ground Truth: the
+    </div><br>
+
+    <div>
+        <img src='./images/1006.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/1010.png'><br>
+        Predicted_before_training: Name<br>
+        Predicted_after_training: Name<br>
+        Ground Truth: Name
+    </div><br>
+
+    <div>
+        <img src='./images/1035.png'><br>
+        Predicted_before_training: 2)<br>
+        Predicted_after_training: 2)<br>
+        Ground Truth: 2)
+    </div><br>
+
+    <div>
+        <img src='./images/1039.png'><br>
+        Predicted_before_training: responsible<br>
+        Predicted_after_training: responsible<br>
+        Ground Truth: responsible
+    </div><br>
+
+    <div>
+        <img src='./images/1040.png'><br>
+        Predicted_before_training: for<br>
+        Predicted_after_training: for<br>
+        Ground Truth: for
+    </div><br>
+
+    <div>
+        <img src='./images/1043.png'><br>
+        Predicted_before_training: damage<br>
+        Predicted_after_training: damage<br>
+        Ground Truth: damage
+    </div><br>
+
+    <div>
+        <img src='./images/1047.png'><br>
+        Predicted_before_training: 24%<br>
+        Predicted_after_training: 24%<br>
+        Ground Truth: 24%
+    </div><br>
+
+    <div>
+        <img src='./images/1048.png'><br>
+        Predicted_before_training: PA<br>
+        Predicted_after_training: PA<br>
+        Ground Truth: PA
+    </div><br>
+
+    <div>
+        <img src='./images/1050.png'><br>
+        Predicted_before_training: will<br>
+        Predicted_after_training: will<br>
+        Ground Truth: will
+    </div><br>
+
+    <div>
+        <img src='./images/1057.png'><br>
+        Predicted_before_training: CHANDIGARH<br>
+        Predicted_after_training: CHANDIGARH<br>
+        Ground Truth: CHANDIQARHYRADE
+    </div><br>
+
+    <div>
+        <img src='./images/1058.png'><br>
+        Predicted_before_training: JRADE<br>
+        Predicted_after_training: TRADE<br>
+        Ground Truth: LINK
+    </div><br>
+
+    <div>
+        <img src='./images/1075.png'><br>
+        Predicted_before_training: LINK<br>
+        Predicted_after_training: LINK<br>
+        Ground Truth: PROOFING
+    </div><br>
+
+    <div>
+        <img src='./images/1076.png'><br>
+        Predicted_before_training: PROOFING<br>
+        Predicted_after_training: PROOFING<br>
+        Ground Truth: APPLICATION,
+    </div><br>
+
+    <div>
+        <img src='./images/1079.png'><br>
+        Predicted_before_training: APPLICATION,<br>
+        Predicted_after_training: APPLICATION,<br>
+        Ground Truth: PROUFING'S
+    </div><br>
+
+    <div>
+        <img src='./images/1080.png'><br>
+        Predicted_before_training: FPROSANG'S<br>
+        Predicted_after_training: PPRGGFINGS<br>
+        Ground Truth: SYSTEMS
+    </div><br>
+
+    <div>
+        <img src='./images/1085.png'><br>
+        Predicted_before_training: S9STEMIS<br>
+        Predicted_after_training: SYSTEnss<br>
+        Ground Truth: INDUSTRIALFLOOR
+    </div><br>
+
+    <div>
+        <img src='./images/1091.png'><br>
+        Predicted_before_training: INDUSTRIALFLOOR<br>
+        Predicted_after_training: INDUSTRIALFLOOR<br>
+        Ground Truth: PROTECTIVE
+    </div><br>
+
+    <div>
+        <img src='./images/1102.png'><br>
+        Predicted_before_training: PROTECTIVE<br>
+        Predicted_after_training: PROTECTIVE<br>
+        Ground Truth: No.
+    </div><br>
+
+    <div>
+        <img src='./images/1104.png'><br>
+        Predicted_before_training: No.<br>
+        Predicted_after_training: No.<br>
+        Ground Truth: Delivery
+    </div><br>
+
+    <div>
+        <img src='./images/1109.png'><br>
+        Predicted_before_training: Delivery<br>
+        Predicted_after_training: Delivery<br>
+        Ground Truth: Buyer's
+    </div><br>
+
+    <div>
+        <img src='./images/1145.png'><br>
+        Predicted_before_training: Buyer's<br>
+        Predicted_after_training: Buyer's<br>
+        Ground Truth: 02
+    </div><br>
+
+    <div>
+        <img src='./images/1159.png'><br>
+        Predicted_before_training: 02<br>
+        Predicted_after_training: 02<br>
+        Ground Truth: No.
+    </div><br>
+
+    <div>
+        <img src='./images/1162.png'><br>
+        Predicted_before_training: No.<br>
+        Predicted_after_training: No.<br>
+        Ground Truth: Date
+    </div><br>
+
+    <div>
+        <img src='./images/1175.png'><br>
+        Predicted_before_training: Date<br>
+        Predicted_after_training: Date<br>
+        Ground Truth: HSN/SAC
+    </div><br>
+
+    <div>
+        <img src='./images/1177.png'><br>
+        Predicted_before_training: HSN/SAC<br>
+        Predicted_after_training: HSN/SAC<br>
+        Ground Truth: Rate
+    </div><br>
+
+    <div>
+        <img src='./images/1184.png'><br>
+        Predicted_before_training: Rate<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: Red
+    </div><br>
+
+    <div>
+        <img src='./images/1189.png'><br>
+        Predicted_before_training: Red<br>
+        Predicted_after_training: Red<br>
+        Ground Truth: litre
+    </div><br>
+
+    <div>
+        <img src='./images/1193.png'><br>
+        Predicted_before_training: litre<br>
+        Predicted_after_training: Iitre<br>
+        Ground Truth: %
+    </div><br>
+
+    <div>
+        <img src='./images/1194.png'><br>
+        Predicted_before_training: %<br>
+        Predicted_after_training: %<br>
+        Ground Truth: 584.78
+    </div><br>
+
+    <div>
+        <img src='./images/1198.png'><br>
+        Predicted_before_training: 584.78<br>
+        Predicted_after_training: 584.78<br>
+        Ground Truth: SGST
+    </div><br>
+
+    <div>
+        <img src='./images/1216.png'><br>
+        Predicted_before_training: SGST<br>
+        Predicted_after_training: SGST<br>
+        Ground Truth: Amount
+    </div><br>
+
+    <div>
+        <img src='./images/1220.png'><br>
+        Predicted_before_training: Amount<br>
+        Predicted_after_training: Amount<br>
+        Ground Truth: Indian
+    </div><br>
+
+    <div>
+        <img src='./images/1222.png'><br>
+        Predicted_before_training: Indian<br>
+        Predicted_after_training: Indian<br>
+        Ground Truth: Six
+    </div><br>
+
+    <div>
+        <img src='./images/1224.png'><br>
+        Predicted_before_training: Six<br>
+        Predicted_after_training: Six<br>
+        Ground Truth: Ninety
+    </div><br>
+
+    <div>
+        <img src='./images/1243.png'><br>
+        Predicted_before_training: Ninety<br>
+        Predicted_after_training: Ninety<br>
+        Ground Truth: 52.63
+    </div><br>
+
+    <div>
+        <img src='./images/1262.png'><br>
+        Predicted_before_training: 52.63<br>
+        Predicted_after_training: 52.63<br>
+        Ground Truth: Bank
+    </div><br>
+
+    <div>
+        <img src='./images/1264.png'><br>
+        Predicted_before_training: Bank<br>
+        Predicted_after_training: Bank<br>
+        Ground Truth: Bank
+    </div><br>
+
+    <div>
+        <img src='./images/1322.png'><br>
+        Predicted_before_training: Bank<br>
+        Predicted_after_training: Bank<br>
+        Ground Truth: Input
+    </div><br>
+
+    <div>
+        <img src='./images/133.png'><br>
+        Predicted_before_training: Input<br>
+        Predicted_after_training: Input<br>
+        Ground Truth: Seven
+    </div><br>
+
+    <div>
+        <img src='./images/1340.png'><br>
+        Predicted_before_training: Seven<br>
+        Predicted_after_training: Seven<br>
+        Ground Truth: is
+    </div><br>
+
+    <div>
+        <img src='./images/1346.png'><br>
+        Predicted_before_training: is<br>
+        Predicted_after_training: is<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/1353.png'><br>
+        Predicted_before_training: Invoic�<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: Payment
+    </div><br>
+
+    <div>
+        <img src='./images/1358.png'><br>
+        Predicted_before_training: Payment<br>
+        Predicted_after_training: Payment<br>
+        Ground Truth: Destination
+    </div><br>
+
+    <div>
+        <img src='./images/1363.png'><br>
+        Predicted_before_training: Destination<br>
+        Predicted_after_training: Destination<br>
+        Ground Truth: NERCHOWK
+    </div><br>
+
+    <div>
+        <img src='./images/1375.png'><br>
+        Predicted_before_training: NERCHOWK<br>
+        Predicted_after_training: NERCHOWK<br>
+        Ground Truth: Code
+    </div><br>
+
+    <div>
+        <img src='./images/1380.png'><br>
+        Predicted_before_training: Code<br>
+        Predicted_after_training: Code<br>
+        Ground Truth: Buyer
+    </div><br>
+
+    <div>
+        <img src='./images/1398.png'><br>
+        Predicted_before_training: Buyer<br>
+        Predicted_after_training: Buyer<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/1401.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: Bill
+    </div><br>
+
+    <div>
+        <img src='./images/1406.png'><br>
+        Predicted_before_training: Bill<br>
+        Predicted_after_training: Bill<br>
+        Ground Truth: Note
+    </div><br>
+
+    <div>
+        <img src='./images/1415.png'><br>
+        Predicted_before_training: Note<br>
+        Predicted_after_training: Note<br>
+        Ground Truth: through
+    </div><br>
+
+    <div>
+        <img src='./images/1420.png'><br>
+        Predicted_before_training: through<br>
+        Predicted_after_training: through<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/1422.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: Despatch
+    </div><br>
+
+    <div>
+        <img src='./images/1426.png'><br>
+        Predicted_before_training: Despatch<br>
+        Predicted_after_training: Despatch<br>
+        Ground Truth: Note
+    </div><br>
+
+    <div>
+        <img src='./images/1427.png'><br>
+        Predicted_before_training: Note<br>
+        Predicted_after_training: Note<br>
+        Ground Truth: Date
+    </div><br>
+
+    <div>
+        <img src='./images/1447.png'><br>
+        Predicted_before_training: Date<br>
+        Predicted_after_training: Date<br>
+        Ground Truth: Services
+    </div><br>
+
+    <div>
+        <img src='./images/1455.png'><br>
+        Predicted_before_training: Services<br>
+        Predicted_after_training: Services<br>
+        Ground Truth: 38.500
+    </div><br>
+
+    <div>
+        <img src='./images/1472.png'><br>
+        Predicted_before_training: 38.500<br>
+        Predicted_after_training: 38.500<br>
+        Ground Truth: 48.00
+    </div><br>
+
+    <div>
+        <img src='./images/1481.png'><br>
+        Predicted_before_training: 48.00<br>
+        Predicted_after_training: 48,00<br>
+        Ground Truth: CHANNEL
+    </div><br>
+
+    <div>
+        <img src='./images/1499.png'><br>
+        Predicted_before_training: CHANNEL<br>
+        Predicted_after_training: CHANNEL<br>
+        Ground Truth: 8428
+    </div><br>
+
+    <div>
+        <img src='./images/1512.png'><br>
+        Predicted_before_training: 8428<br>
+        Predicted_after_training: 8428<br>
+        Ground Truth: O.E
+    </div><br>
+
+    <div>
+        <img src='./images/1515.png'><br>
+        Predicted_before_training: O.E<br>
+        Predicted_after_training: O.E<br>
+        Ground Truth: 330.56
+    </div><br>
+
+    <div>
+        <img src='./images/1534.png'><br>
+        Predicted_before_training: 330.56<br>
+        Predicted_after_training: 330.56<br>
+        Ground Truth: 521.50
+    </div><br>
+
+    <div>
+        <img src='./images/1536.png'><br>
+        Predicted_before_training: 521.50<br>
+        Predicted_after_training: 521.50<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/1545.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: 9%
+    </div><br>
+
+    <div>
+        <img src='./images/1546.png'><br>
+        Predicted_before_training: 9%<br>
+        Predicted_after_training: 9%<br>
+        Ground Truth: 165.28
+    </div><br>
+
+    <div>
+        <img src='./images/1555.png'><br>
+        Predicted_before_training: 165.28<br>
+        Predicted_after_training: 165.28<br>
+        Ground Truth: 64,555.92
+    </div><br>
+
+    <div>
+        <img src='./images/1559.png'><br>
+        Predicted_before_training: 64,555.92<br>
+        Predicted_after_training: 64,555.92<br>
+        Ground Truth: 5,810.03
+    </div><br>
+
+    <div>
+        <img src='./images/1563.png'><br>
+        Predicted_before_training: 5,810.03<br>
+        Predicted_after_training: 5,810.03<br>
+        Ground Truth: 998.78
+    </div><br>
+
+    <div>
+        <img src='./images/1570.png'><br>
+        Predicted_before_training: 998.78<br>
+        Predicted_after_training: 998.78<br>
+        Ground Truth: 7214
+    </div><br>
+
+    <div>
+        <img src='./images/1576.png'><br>
+        Predicted_before_training: 7214<br>
+        Predicted_after_training: 7214<br>
+        Ground Truth: 8,217.49
+    </div><br>
+
+    <div>
+        <img src='./images/157.png'><br>
+        Predicted_before_training: 8,217.49<br>
+        Predicted_after_training: 8,217.49<br>
+        Ground Truth: SIMLA
+    </div><br>
+
+    <div>
+        <img src='./images/1587.png'><br>
+        Predicted_before_training: SIMLA<br>
+        Predicted_after_training: SIMLA<br>
+        Ground Truth: Thousand
+    </div><br>
+
+    <div>
+        <img src='./images/158.png'><br>
+        Predicted_before_training: Thousand<br>
+        Predicted_after_training: Thousand<br>
+        Ground Truth: AUTOMOBILES
+    </div><br>
+
+    <div>
+        <img src='./images/1594.png'><br>
+        Predicted_before_training: AUTOMOBILES<br>
+        Predicted_after_training: AUTOMOBILES<br>
+        Ground Truth: Eight
+    </div><br>
+
+    <div>
+        <img src='./images/1596.png'><br>
+        Predicted_before_training: Eight<br>
+        Predicted_after_training: Eight<br>
+        Ground Truth: Only
+    </div><br>
+
+    <div>
+        <img src='./images/15.png'><br>
+        Predicted_before_training: Only<br>
+        Predicted_after_training: Only<br>
+        Ground Truth: -
+    </div><br>
+
+    <div>
+        <img src='./images/1600.png'><br>
+        Predicted_before_training: AHAPS6851L<br>
+        Predicted_after_training: AHAPS6851L<br>
+        Ground Truth: AHAPS6851L
+    </div><br>
+
+    <div>
+        <img src='./images/1607.png'><br>
+        Predicted_before_training: No.<br>
+        Predicted_after_training: No.<br>
+        Ground Truth: No.
+    </div><br>
+
+    <div>
+        <img src='./images/1609.png'><br>
+        Predicted_before_training: declare<br>
+        Predicted_after_training: declare<br>
+        Ground Truth: declare
+    </div><br>
+
+    <div>
+        <img src='./images/1612.png'><br>
+        Predicted_before_training: invoice<br>
+        Predicted_after_training: invoice<br>
+        Ground Truth: invoice
+    </div><br>
+
+    <div>
+        <img src='./images/1616.png'><br>
+        Predicted_before_training: price<br>
+        Predicted_after_training: price<br>
+        Ground Truth: price
+    </div><br>
+
+    <div>
+        <img src='./images/1618.png'><br>
+        Predicted_before_training: the<br>
+        Predicted_after_training: the<br>
+        Ground Truth: the
+    </div><br>
+
+    <div>
+        <img src='./images/1621.png'><br>
+        Predicted_before_training: and<br>
+        Predicted_after_training: and<br>
+        Ground Truth: and
+    </div><br>
+
+    <div>
+        <img src='./images/1624.png'><br>
+        Predicted_before_training: particulars<br>
+        Predicted_after_training: particulars<br>
+        Ground Truth: particulars
+    </div><br>
+
+    <div>
+        <img src='./images/1657.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/1671.png'><br>
+        Predicted_before_training: this<br>
+        Predicted_after_training: this<br>
+        Ground Truth: this
+    </div><br>
+
+    <div>
+        <img src='./images/1672.png'><br>
+        Predicted_before_training: copy<br>
+        Predicted_after_training: copy<br>
+        Ground Truth: copy
+    </div><br>
+
+    <div>
+        <img src='./images/168.png'><br>
+        Predicted_before_training: OF<br>
+        Predicted_after_training: OF<br>
+        Ground Truth: OF
+    </div><br>
+
+    <div>
+        <img src='./images/1695.png'><br>
+        Predicted_before_training: CHOWK<br>
+        Predicted_after_training: CHOWK<br>
+        Ground Truth: CHOWK
+    </div><br>
+
+    <div>
+        <img src='./images/1700.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/1704.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/170.png'><br>
+        Predicted_before_training: /PLACE<br>
+        Predicted_after_training: /PLACE<br>
+        Ground Truth: /PLACE
+    </div><br>
+
+    <div>
+        <img src='./images/1721.png'><br>
+        Predicted_before_training: (02)<br>
+        Predicted_after_training: (02)<br>
+        Ground Truth: (02)
+    </div><br>
+
+    <div>
+        <img src='./images/1729.png'><br>
+        Predicted_before_training: Goods<br>
+        Predicted_after_training: Goods<br>
+        Ground Truth: Goods
+    </div><br>
+
+    <div>
+        <img src='./images/1730.png'><br>
+        Predicted_before_training: 1.<br>
+        Predicted_after_training: 1.<br>
+        Ground Truth: 1.
+    </div><br>
+
+    <div>
+        <img src='./images/1731.png'><br>
+        Predicted_before_training: DOOR<br>
+        Predicted_after_training: DOOR<br>
+        Ground Truth: DOOR
+    </div><br>
+
+    <div>
+        <img src='./images/1733.png'><br>
+        Predicted_before_training: KDD<br>
+        Predicted_after_training: KDD<br>
+        Ground Truth: KDD
+    </div><br>
+
+    <div>
+        <img src='./images/1741.png'><br>
+        Predicted_before_training: Price<br>
+        Predicted_after_training: Price<br>
+        Ground Truth: Price
+    </div><br>
+
+    <div>
+        <img src='./images/1748.png'><br>
+        Predicted_before_training: Rate<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: Rate
+    </div><br>
+
+    <div>
+        <img src='./images/1757.png'><br>
+        Predicted_before_training: 6.00<br>
+        Predicted_after_training: 6.00<br>
+        Ground Truth: 6.00
+    </div><br>
+
+    <div>
+        <img src='./images/1769.png'><br>
+        Predicted_before_training: Rate<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: Rate
+    </div><br>
+
+    <div>
+        <img src='./images/1776.png'><br>
+        Predicted_before_training: Total<br>
+        Predicted_after_training: Total<br>
+        Ground Truth: Total
+    </div><br>
+
+    <div>
+        <img src='./images/1783.png'><br>
+        Predicted_before_training: Fifty<br>
+        Predicted_after_training: Fifty<br>
+        Ground Truth: Fifty
+    </div><br>
+
+    <div>
+        <img src='./images/180.png'><br>
+        Predicted_before_training: Dealer<br>
+        Predicted_after_training: Dealer<br>
+        Ground Truth: Dealer
+    </div><br>
+
+    <div>
+        <img src='./images/1821.png'><br>
+        Predicted_before_training: p.a<br>
+        Predicted_after_training: p.a<br>
+        Ground Truth: p.a
+    </div><br>
+
+    <div>
+        <img src='./images/1833.png'><br>
+        Predicted_before_training: stipulated<br>
+        Predicted_after_training: stipulated<br>
+        Ground Truth: stipulated
+    </div><br>
+
+    <div>
+        <img src='./images/1840.png'><br>
+        Predicted_before_training: only<br>
+        Predicted_after_training: only<br>
+        Ground Truth: only
+    </div><br>
+
+    <div>
+        <img src='./images/1841.png'><br>
+        Predicted_before_training: PAL<br>
+        Predicted_after_training: PAL<br>
+        Ground Truth: PAL
+    </div><br>
+
+    <div>
+        <img src='./images/1860.png'><br>
+        Predicted_before_training: Ltd<br>
+        Predicted_after_training: Ltd<br>
+        Ground Truth: Ltd
+    </div><br>
+
+    <div>
+        <img src='./images/1863.png'><br>
+        Predicted_before_training: Delivery<br>
+        Predicted_after_training: Delivery<br>
+        Ground Truth: Delivery
+    </div><br>
+
+    <div>
+        <img src='./images/1871.png'><br>
+        Predicted_before_training: 1<br>
+        Predicted_after_training: 1<br>
+        Ground Truth: 1
+    </div><br>
+
+    <div>
+        <img src='./images/1877.png'><br>
+        Predicted_before_training: Duplicate<br>
+        Predicted_after_training: Duplicate<br>
+        Ground Truth: Duplicate
+    </div><br>
+
+    <div>
+        <img src='./images/1884.png'><br>
+        Predicted_before_training: 31/03/2021<br>
+        Predicted_after_training: 31/03/2021<br>
+        Ground Truth: 31/03/2021
+    </div><br>
+
+    <div>
+        <img src='./images/1889.png'><br>
+        Predicted_before_training: Credit<br>
+        Predicted_after_training: Credit<br>
+        Ground Truth: Credit
+    </div><br>
+
+    <div>
+        <img src='./images/1892.png'><br>
+        Predicted_before_training: 4<br>
+        Predicted_after_training: 4<br>
+        Ground Truth: 4
+    </div><br>
+
+    <div>
+        <img src='./images/1894.png'><br>
+        Predicted_before_training: 7290042318,<br>
+        Predicted_after_training: 7290042318,<br>
+        Ground Truth: 7290042318,
+    </div><br>
+
+    <div>
+        <img src='./images/1898.png'><br>
+        Predicted_before_training: 998729<br>
+        Predicted_after_training: 998729<br>
+        Ground Truth: 998729
+    </div><br>
+
+    <div>
+        <img src='./images/18.png'><br>
+        Predicted_before_training: Authorised<br>
+        Predicted_after_training: Authorised<br>
+        Ground Truth: Authorised
+    </div><br>
+
+    <div>
+        <img src='./images/1906.png'><br>
+        Predicted_before_training: N.E.C<br>
+        Predicted_after_training: N.E.C<br>
+        Ground Truth: N.E.C
+    </div><br>
+
+    <div>
+        <img src='./images/1917.png'><br>
+        Predicted_before_training: 1-1666105233<br>
+        Predicted_after_training: 1-1666105233<br>
+        Ground Truth: 1-1666105233
+    </div><br>
+
+    <div>
+        <img src='./images/1919.png'><br>
+        Predicted_before_training: RATTI<br>
+        Predicted_after_training: RATTI<br>
+        Ground Truth: RATTI
+    </div><br>
+
+    <div>
+        <img src='./images/1946.png'><br>
+        Predicted_before_training: C002004<br>
+        Predicted_after_training: C002004<br>
+        Ground Truth: C002004
+    </div><br>
+
+    <div>
+        <img src='./images/1955.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/1964.png'><br>
+        Predicted_before_training: Date<br>
+        Predicted_after_training: Date<br>
+        Ground Truth: Date
+    </div><br>
+
+    <div>
+        <img src='./images/1965.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/1966.png'><br>
+        Predicted_before_training: Date<br>
+        Predicted_after_training: Date<br>
+        Ground Truth: Date
+    </div><br>
+
+    <div>
+        <img src='./images/1979.png'><br>
+        Predicted_before_training: Dealer<br>
+        Predicted_after_training: Dealer<br>
+        Ground Truth: #
+    </div><br>
+
+    <div>
+        <img src='./images/199.png'><br>
+        Predicted_before_training: CGST<br>
+        Predicted_after_training: CGST<br>
+        Ground Truth: Dealer
+    </div><br>
+
+    <div>
+        <img src='./images/2023.png'><br>
+        Predicted_before_training: Amount<br>
+        Predicted_after_training: Amount<br>
+        Ground Truth: CGST
+    </div><br>
+
+    <div>
+        <img src='./images/2043.png'><br>
+        Predicted_before_training: TCS<br>
+        Predicted_after_training: TCS<br>
+        Ground Truth: Amount
+    </div><br>
+
+    <div>
+        <img src='./images/2092.png'><br>
+        Predicted_before_training: RBR21G000153<br>
+        Predicted_after_training: RBR21G000153<br>
+        Ground Truth: TCS
+    </div><br>
+
+    <div>
+        <img src='./images/209.png'><br>
+        Predicted_before_training: (Amount<br>
+        Predicted_after_training: (Amount<br>
+        Ground Truth: RBR21G000153
+    </div><br>
+
+    <div>
+        <img src='./images/2108.png'><br>
+        Predicted_before_training: Ten<br>
+        Predicted_after_training: Ten<br>
+        Ground Truth: (Amount
+    </div><br>
+
+    <div>
+        <img src='./images/2116.png'><br>
+        Predicted_before_training: that<br>
+        Predicted_after_training: that<br>
+        Ground Truth: Ten
+    </div><br>
+
+    <div>
+        <img src='./images/2119.png'><br>
+        Predicted_before_training: work<br>
+        Predicted_after_training: work<br>
+        Ground Truth: that
+    </div><br>
+
+    <div>
+        <img src='./images/2128.png'><br>
+        Predicted_before_training: my<br>
+        Predicted_after_training: my<br>
+        Ground Truth: work
+    </div><br>
+
+    <div>
+        <img src='./images/2133.png'><br>
+        Predicted_before_training: SUBJECT<br>
+        Predicted_after_training: SUBJECT<br>
+        Ground Truth: my
+    </div><br>
+
+    <div>
+        <img src='./images/2143.png'><br>
+        Predicted_before_training: Code<br>
+        Predicted_after_training: Code<br>
+        Ground Truth: SUBJECT
+    </div><br>
+
+    <div>
+        <img src='./images/2165.png'><br>
+        Predicted_before_training: 02<br>
+        Predicted_after_training: 02<br>
+        Ground Truth: Code
+    </div><br>
+
+    <div>
+        <img src='./images/2167.png'><br>
+        Predicted_before_training: No.<br>
+        Predicted_after_training: No.<br>
+        Ground Truth: 02
+    </div><br>
+
+    <div>
+        <img src='./images/2174.png'><br>
+        Predicted_before_training: Party<br>
+        Predicted_after_training: Party<br>
+        Ground Truth: No.
+    </div><br>
+
+    <div>
+        <img src='./images/2178.png'><br>
+        Predicted_before_training: Ratti<br>
+        Predicted_after_training: Ratti<br>
+        Ground Truth: Party
+    </div><br>
+
+    <div>
+        <img src='./images/2185.png'><br>
+        Predicted_before_training: VERMA<br>
+        Predicted_after_training: VERMA<br>
+        Ground Truth: Ratti
+    </div><br>
+
+    <div>
+        <img src='./images/218.png'><br>
+        Predicted_before_training: Name<br>
+        Predicted_after_training: Name<br>
+        Ground Truth: VERMA
+    </div><br>
+
+    <div>
+        <img src='./images/2192.png'><br>
+        Predicted_before_training: Jeet<br>
+        Predicted_after_training: Jeet<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/2203.png'><br>
+        Predicted_before_training: Kumar<br>
+        Predicted_after_training: Kumar<br>
+        Ground Truth: Name
+    </div><br>
+
+    <div>
+        <img src='./images/2228.png'><br>
+        Predicted_before_training: E.<br>
+        Predicted_after_training: E.<br>
+        Ground Truth: Jeet
+    </div><br>
+
+    <div>
+        <img src='./images/2229.png'><br>
+        Predicted_before_training: Ninety<br>
+        Predicted_after_training: Ninety<br>
+        Ground Truth: Kumar
+    </div><br>
+
+    <div>
+        <img src='./images/2240.png'><br>
+        Predicted_before_training: Tax<br>
+        Predicted_after_training: Tax<br>
+        Ground Truth: E.
+    </div><br>
+
+    <div>
+        <img src='./images/2253.png'><br>
+        Predicted_before_training: Amount<br>
+        Predicted_after_training: Amount<br>
+        Ground Truth: Ninety
+    </div><br>
+
+    <div>
+        <img src='./images/2265.png'><br>
+        Predicted_before_training: 855.00<br>
+        Predicted_after_training: 855.00<br>
+        Ground Truth: Tax
+    </div><br>
+
+    <div>
+        <img src='./images/2272.png'><br>
+        Predicted_before_training: One<br>
+        Predicted_after_training: One<br>
+        Ground Truth: Amount
+    </div><br>
+
+    <div>
+        <img src='./images/2276.png'><br>
+        Predicted_before_training: PAN<br>
+        Predicted_after_training: PAN<br>
+        Ground Truth: 855.00
+    </div><br>
+
+    <div>
+        <img src='./images/2285.png'><br>
+        Predicted_before_training: A/c<br>
+        Predicted_after_training: A/c<br>
+        Ground Truth: One
+    </div><br>
+
+    <div>
+        <img src='./images/2299.png'><br>
+        Predicted_before_training: PNB<br>
+        Predicted_after_training: PNB<br>
+        Ground Truth: PAN
+    </div><br>
+
+    <div>
+        <img src='./images/2305.png'><br>
+        Predicted_before_training: Gutkar<br>
+        Predicted_after_training: Gutkar<br>
+        Ground Truth: Alc
+    </div><br>
+
+    <div>
+        <img src='./images/2307.png'><br>
+        Predicted_before_training: TO<br>
+        Predicted_after_training: TO<br>
+        Ground Truth: PNB
+    </div><br>
+
+    <div>
+        <img src='./images/2318.png'><br>
+        Predicted_before_training: AND<br>
+        Predicted_after_training: AND<br>
+        Ground Truth: Gutkar
+    </div><br>
+
+    <div>
+        <img src='./images/231.png'><br>
+        Predicted_before_training: KITCHEN<br>
+        Predicted_after_training: KITCHEN<br>
+        Ground Truth: TO
+    </div><br>
+
+    <div>
+        <img src='./images/2334.png'><br>
+        Predicted_before_training: VEHICLE<br>
+        Predicted_after_training: VEHICLE<br>
+        Ground Truth: AND
+    </div><br>
+
+    <div>
+        <img src='./images/2348.png'><br>
+        Predicted_before_training: No..<br>
+        Predicted_after_training: No..<br>
+        Ground Truth: KITCHEN
+    </div><br>
+
+    <div>
+        <img src='./images/234.png'><br>
+        Predicted_before_training: Vugl<br>
+        Predicted_after_training: 4191<br>
+        Ground Truth: VEHICLE
+    </div><br>
+
+    <div>
+        <img src='./images/2358.png'><br>
+        Predicted_before_training: 228<br>
+        Predicted_after_training: a28<br>
+        Ground Truth: No.
+    </div><br>
+
+    <div>
+        <img src='./images/2388.png'><br>
+        Predicted_before_training: Teg<br>
+        Predicted_after_training: Tee.<br>
+        Ground Truth: 449/
+    </div><br>
+
+    <div>
+        <img src='./images/2399.png'><br>
+        Predicted_before_training: GSTIN<br>
+        Predicted_after_training: GSTIN<br>
+        Ground Truth: 228
+    </div><br>
+
+    <div>
+        <img src='./images/2407.png'><br>
+        Predicted_before_training: Condition<br>
+        Predicted_after_training: Condition<br>
+        Ground Truth: Tee
+    </div><br>
+
+    <div>
+        <img src='./images/240.png'><br>
+        Predicted_before_training: be<br>
+        Predicted_after_training: be<br>
+        Ground Truth: GSTIN
+    </div><br>
+
+    <div>
+        <img src='./images/2416.png'><br>
+        Predicted_before_training: All<br>
+        Predicted_after_training: All<br>
+        Ground Truth: Condition
+    </div><br>
+
+    <div>
+        <img src='./images/2433.png'><br>
+        Predicted_before_training: DBAKIPA75E3M427<br>
+        Predicted_after_training: 02ACTPG75E5M1Z2<br>
+        Ground Truth: be
+    </div><br>
+
+    <div>
+        <img src='./images/2437.png'><br>
+        Predicted_before_training: GSTINVOICE<br>
+        Predicted_after_training: GSTINVOICE<br>
+        Ground Truth: All
+    </div><br>
+
+    <div>
+        <img src='./images/2454.png'><br>
+        Predicted_before_training: SOSH<br>
+        Predicted_after_training: SOSH<br>
+        Ground Truth: G.
+    </div><br>
+
+    <div>
+        <img src='./images/2458.png'><br>
+        Predicted_before_training: LATE<br>
+        Predicted_after_training: LATE<br>
+        Ground Truth: 02ACIPG7583M1ZZ
+    </div><br>
+
+    <div>
+        <img src='./images/2464.png'><br>
+        Predicted_before_training: BILLED<br>
+        Predicted_after_training: BILLED<br>
+        Ground Truth: GSTINVOICE
+    </div><br>
+
+    <div>
+        <img src='./images/248.png'><br>
+        Predicted_before_training: Dhoti<br>
+        Predicted_after_training: Dhoti<br>
+        Ground Truth: SOSH
+    </div><br>
+
+    <div>
+        <img src='./images/249.png'><br>
+        Predicted_before_training: (H.P.)-175008<br>
+        Predicted_after_training: (H.P.)-175008<br>
+        Ground Truth: LATE
+    </div><br>
+
+    <div>
+        <img src='./images/24.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: BILLED
+    </div><br>
+
+    <div>
+        <img src='./images/2506.png'><br>
+        Predicted_before_training: 3696<br>
+        Predicted_after_training: 3696<br>
+        Ground Truth: Dhoti
+    </div><br>
+
+    <div>
+        <img src='./images/2516.png'><br>
+        Predicted_before_training: Mode<br>
+        Predicted_after_training: Mode<br>
+        Ground Truth: (H.P.)-175008
+    </div><br>
+
+    <div>
+        <img src='./images/2527.png'><br>
+        Predicted_before_training: Date<br>
+        Predicted_after_training: Date<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/2535.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: 3696
+    </div><br>
+
+    <div>
+        <img src='./images/2560.png'><br>
+        Predicted_before_training: UOM<br>
+        Predicted_after_training: UOM<br>
+        Ground Truth: Mode
+    </div><br>
+
+    <div>
+        <img src='./images/2570.png'><br>
+        Predicted_before_training: Rate<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: Date
+    </div><br>
+
+    <div>
+        <img src='./images/2571.png'><br>
+        Predicted_before_training: 5%<br>
+        Predicted_after_training: 5%<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/2573.png'><br>
+        Predicted_before_training: i567-74<br>
+        Predicted_after_training: 1s67.79<br>
+        Ground Truth: UOM
+    </div><br>
+
+    <div>
+        <img src='./images/2575.png'><br>
+        Predicted_before_training: Total<br>
+        Predicted_after_training: Total,<br>
+        Ground Truth: Rate
+    </div><br>
+
+    <div>
+        <img src='./images/2576.png'><br>
+        Predicted_before_training: 15328-12<br>
+        Predicted_after_training: 15328.12<br>
+        Ground Truth: 5%
+    </div><br>
+
+    <div>
+        <img src='./images/2587.png'><br>
+        Predicted_before_training: 13375<br>
+        Predicted_after_training: 13375<br>
+        Ground Truth: 1567.79
+    </div><br>
+
+    <div>
+        <img src='./images/2597.png'><br>
+        Predicted_before_training: 2s7-3/<br>
+        Predicted_after_training: 257.81<br>
+        Ground Truth: Total
+    </div><br>
+
+    <div>
+        <img src='./images/2610.png'><br>
+        Predicted_before_training: 3135-59<br>
+        Predicted_after_training: 3135.59<br>
+        Ground Truth: 5328.12
+    </div><br>
+
+    <div>
+        <img src='./images/2616.png'><br>
+        Predicted_before_training: Interest<br>
+        Predicted_after_training: Interest<br>
+        Ground Truth: 3375
+    </div><br>
+
+    <div>
+        <img src='./images/2618.png'><br>
+        Predicted_before_training: All<br>
+        Predicted_after_training: All<br>
+        Ground Truth: 257.81
+    </div><br>
+
+    <div>
+        <img src='./images/2620.png'><br>
+        Predicted_before_training: are<br>
+        Predicted_after_training: are<br>
+        Ground Truth: 3135-59
+    </div><br>
+
+    <div>
+        <img src='./images/2642.png'><br>
+        Predicted_before_training: Address<br>
+        Predicted_after_training: Rddress<br>
+        Ground Truth: Interest
+    </div><br>
+
+    <div>
+        <img src='./images/2643.png'><br>
+        Predicted_before_training: Jurisdiction.<br>
+        Predicted_after_training: Jurisdiction,<br>
+        Ground Truth: All
+    </div><br>
+
+    <div>
+        <img src='./images/2647.png'><br>
+        Predicted_before_training: VPO<br>
+        Predicted_after_training: VPO<br>
+        Ground Truth: are,
+    </div><br>
+
+    <div>
+        <img src='./images/264.png'><br>
+        Predicted_before_training: MANDI<br>
+        Predicted_after_training: MANDI<br>
+        Ground Truth: Address
+    </div><br>
+
+    <div>
+        <img src='./images/2655.png'><br>
+        Predicted_before_training: Voltas,<br>
+        Predicted_after_training: Voltas,<br>
+        Ground Truth: Jurisdiction.
+    </div><br>
+
+    <div>
+        <img src='./images/266.png'><br>
+        Predicted_before_training: HSN<br>
+        Predicted_after_training: HSN<br>
+        Ground Truth: VPO
+    </div><br>
+
+    <div>
+        <img src='./images/2700.png'><br>
+        Predicted_before_training: 5%<br>
+        Predicted_after_training: 5%<br>
+        Ground Truth: MANDI
+    </div><br>
+
+    <div>
+        <img src='./images/2729.png'><br>
+        Predicted_before_training: 825<br>
+        Predicted_after_training: 825<br>
+        Ground Truth: Voltas,
+    </div><br>
+
+    <div>
+        <img src='./images/2752.png'><br>
+        Predicted_before_training: SGST<br>
+        Predicted_after_training: SGST<br>
+        Ground Truth: HSN
+    </div><br>
+
+    <div>
+        <img src='./images/2756.png'><br>
+        Predicted_before_training: Mandi<br>
+        Predicted_after_training: Mandi<br>
+        Ground Truth: 5%
+    </div><br>
+
+    <div>
+        <img src='./images/2764.png'><br>
+        Predicted_before_training: 18<br>
+        Predicted_after_training: 1e<br>
+        Ground Truth: 825
+    </div><br>
+
+    <div>
+        <img src='./images/2796.png'><br>
+        Predicted_before_training: the<br>
+        Predicted_after_training: the<br>
+        Ground Truth: SGST
+    </div><br>
+
+    <div>
+        <img src='./images/2828.png'><br>
+        Predicted_before_training: above<br>
+        Predicted_after_training: above<br>
+        Ground Truth: Mandi
+    </div><br>
+
+    <div>
+        <img src='./images/2837.png'><br>
+        Predicted_before_training: trug<br>
+        Predicted_after_training: trup<br>
+        Ground Truth: be
+    </div><br>
+
+    <div>
+        <img src='./images/2843.png'><br>
+        Predicted_before_training: (GST)<br>
+        Predicted_after_training: (GST)<br>
+        Ground Truth: the
+    </div><br>
+
+    <div>
+        <img src='./images/2852.png'><br>
+        Predicted_before_training: to<br>
+        Predicted_after_training: to<br>
+        Ground Truth: will
+    </div><br>
+
+    <div>
+        <img src='./images/2859.png'><br>
+        Predicted_before_training: GSTIN<br>
+        Predicted_after_training: GSTIN<br>
+        Ground Truth: will
+    </div><br>
+
+    <div>
+        <img src='./images/2860.png'><br>
+        Predicted_before_training: 02ACTPG7583M1ZZ<br>
+        Predicted_after_training: 02ACTPG7583M1ZZ<br>
+        Ground Truth: not
+    </div><br>
+
+    <div>
+        <img src='./images/2865.png'><br>
+        Predicted_before_training: 20KG<br>
+        Predicted_after_training: 20KG<br>
+        Ground Truth: on
+    </div><br>
+
+    <div>
+        <img src='./images/2875.png'><br>
+        Predicted_before_training: 381.36<br>
+        Predicted_after_training: 381.36<br>
+        Ground Truth: above
+    </div><br>
+
+    <div>
+        <img src='./images/2877.png'><br>
+        Predicted_before_training: Code<br>
+        Predicted_after_training: Code<br>
+        Ground Truth: true
+    </div><br>
+
+    <div>
+        <img src='./images/2888.png'><br>
+        Predicted_before_training: 3766.95<br>
+        Predicted_after_training: 3766.95<br>
+        Ground Truth: (GST)
+    </div><br>
+
+    <div>
+        <img src='./images/2900.png'><br>
+        Predicted_before_training: EA<br>
+        Predicted_after_training: EA<br>
+        Ground Truth: to
+    </div><br>
+
+    <div>
+        <img src='./images/2908.png'><br>
+        Predicted_before_training: Rate<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: GSTIN
+    </div><br>
+
+    <div>
+        <img src='./images/2909.png'><br>
+        Predicted_before_training: 203.13<br>
+        Predicted_after_training: 203.13<br>
+        Ground Truth: 02ACTPG7583M1ZZ
+    </div><br>
+
+    <div>
+        <img src='./images/2923.png'><br>
+        Predicted_before_training: Sale<br>
+        Predicted_after_training: Sale<br>
+        Ground Truth: 20KG
+    </div><br>
+
+    <div>
+        <img src='./images/2955.png'><br>
+        Predicted_before_training: Bill<br>
+        Predicted_after_training: Bill<br>
+        Ground Truth: 381.36
+    </div><br>
+
+    <div>
+        <img src='./images/2964.png'><br>
+        Predicted_before_training: Amount<br>
+        Predicted_after_training: Amount<br>
+        Ground Truth: Code
+    </div><br>
+
+    <div>
+        <img src='./images/2973.png'><br>
+        Predicted_before_training: 114.000<br>
+        Predicted_after_training: 114.000<br>
+        Ground Truth: 3766.95
+    </div><br>
+
+    <div>
+        <img src='./images/297.png'><br>
+        Predicted_before_training: 708.94<br>
+        Predicted_after_training: 708.94<br>
+        Ground Truth: EA
+    </div><br>
+
+    <div>
+        <img src='./images/2982.png'><br>
+        Predicted_before_training: 1474.75<br>
+        Predicted_after_training: 1474.75<br>
+        Ground Truth: Rate
+    </div><br>
+
+    <div>
+        <img src='./images/2985.png'><br>
+        Predicted_before_training: can<br>
+        Predicted_after_training: can<br>
+        Ground Truth: 203.13
+    </div><br>
+
+    <div>
+        <img src='./images/2993.png'><br>
+        Predicted_before_training: delivery.<br>
+        Predicted_after_training: delivery.<br>
+        Ground Truth: Sale
+    </div><br>
+
+    <div>
+        <img src='./images/2996.png'><br>
+        Predicted_before_training: subject<br>
+        Predicted_after_training: subject<br>
+        Ground Truth: Bill
+    </div><br>
+
+    <div>
+        <img src='./images/2997.png'><br>
+        Predicted_before_training: to<br>
+        Predicted_after_training: to<br>
+        Ground Truth: Amount
+    </div><br>
+
+    <div>
+        <img src='./images/3003.png'><br>
+        Predicted_before_training: 0911008700004741<br>
+        Predicted_after_training: 0911008700004741<br>
+        Ground Truth: 14.000
+    </div><br>
+
+    <div>
+        <img src='./images/3007.png'><br>
+        Predicted_before_training: PUNB0091100<br>
+        Predicted_after_training: PUNB0091100<br>
+        Ground Truth: 708.94
+    </div><br>
+
+    <div>
+        <img src='./images/3015.png'><br>
+        Predicted_before_training: 1474.75<br>
+        Predicted_after_training: 1474.75<br>
+        Ground Truth: 1474.75
+    </div><br>
+
+    <div>
+        <img src='./images/3024.png'><br>
+        Predicted_before_training: 18.00<br>
+        Predicted_after_training: 18.00<br>
+        Ground Truth: can
+    </div><br>
+
+    <div>
+        <img src='./images/3040.png'><br>
+        Predicted_before_training: GSTIN:<br>
+        Predicted_after_training: GSTIN:<br>
+        Ground Truth: delivery.
+    </div><br>
+
+    <div>
+        <img src='./images/3044.png'><br>
+        Predicted_before_training: (BACK<br>
+        Predicted_after_training: (BACK<br>
+        Ground Truth: subject
+    </div><br>
+
+    <div>
+        <img src='./images/3045.png'><br>
+        Predicted_before_training: SIDE)<br>
+        Predicted_after_training: SIDE)<br>
+        Ground Truth: to
+    </div><br>
+
+    <div>
+        <img src='./images/3051.png'><br>
+        Predicted_before_training: SECTOR<br>
+        Predicted_after_training: SECTOR<br>
+        Ground Truth: 0911008700004741
+    </div><br>
+
+    <div>
+        <img src='./images/3054.png'><br>
+        Predicted_before_training: 0172-2793340,<br>
+        Predicted_after_training: 0172-2793340,<br>
+        Ground Truth: PUNB0091100
+    </div><br>
+
+    <div>
+        <img src='./images/3064.png'><br>
+        Predicted_before_training: 5001037;<br>
+        Predicted_after_training: 5001037,<br>
+        Ground Truth: 1474.75
+    </div><br>
+
+    <div>
+        <img src='./images/3077.png'><br>
+        Predicted_before_training: BS3<br>
+        Predicted_after_training: BS3<br>
+        Ground Truth: 18.00
+    </div><br>
+
+    <div>
+        <img src='./images/3079.png'><br>
+        Predicted_before_training: gcakumar@yahoo.com<br>
+        Predicted_after_training: Scakumareydho0.com<br>
+        Ground Truth: GSTIN:
+    </div><br>
+
+    <div>
+        <img src='./images/3090.png'><br>
+        Predicted_before_training: KUMAR<br>
+        Predicted_after_training: KUMAR<br>
+        Ground Truth: (BACK
+    </div><br>
+
+    <div>
+        <img src='./images/3091.png'><br>
+        Predicted_before_training: MANDI<br>
+        Predicted_after_training: MANDI<br>
+        Ground Truth: SIDE)
+    </div><br>
+
+    <div>
+        <img src='./images/3092.png'><br>
+        Predicted_before_training: No.<br>
+        Predicted_after_training: No.<br>
+        Ground Truth: SECTOR
+    </div><br>
+
+    <div>
+        <img src='./images/3097.png'><br>
+        Predicted_before_training: Place<br>
+        Predicted_after_training: Place<br>
+        Ground Truth: 0172-2793340,
+    </div><br>
+
+    <div>
+        <img src='./images/3099.png'><br>
+        Predicted_before_training: Supply<br>
+        Predicted_after_training: Supply<br>
+        Ground Truth: 5001037;
+    </div><br>
+
+    <div>
+        <img src='./images/309.png'><br>
+        Predicted_before_training: Description<br>
+        Predicted_after_training: Description<br>
+        Ground Truth: BS3
+    </div><br>
+
+    <div>
+        <img src='./images/3101.png'><br>
+        Predicted_before_training: Goods<br>
+        Predicted_after_training: Goods<br>
+        Ground Truth: gcakumar@yahoo.com
+    </div><br>
+
+    <div>
+        <img src='./images/3140.png'><br>
+        Predicted_before_training: Excellent<br>
+        Predicted_after_training: Excellent<br>
+        Ground Truth: KUMAR
+    </div><br>
+
+    <div>
+        <img src='./images/3150.png'><br>
+        Predicted_before_training: PIN:175008<br>
+        Predicted_after_training: PIN:175008<br>
+        Ground Truth: MANDI
+    </div><br>
+
+    <div>
+        <img src='./images/3154.png'><br>
+        Predicted_before_training: 3405<br>
+        Predicted_after_training: 3405<br>
+        Ground Truth: /
+    </div><br>
+
+    <div>
+        <img src='./images/3162.png'><br>
+        Predicted_before_training: Qty.<br>
+        Predicted_after_training: Qty.<br>
+        Ground Truth: No.
+    </div><br>
+
+    <div>
+        <img src='./images/3164.png'><br>
+        Predicted_before_training: Price<br>
+        Predicted_after_training: Price<br>
+        Ground Truth: Place
+    </div><br>
+
+    <div>
+        <img src='./images/3166.png'><br>
+        Predicted_before_training: Discount<br>
+        Predicted_after_training: Discount<br>
+        Ground Truth: Supply
+    </div><br>
+
+    <div>
+        <img src='./images/3194.png'><br>
+        Predicted_before_training: Amount<br>
+        Predicted_after_training: Amount<br>
+        Ground Truth: Description
+    </div><br>
+
+    <div>
+        <img src='./images/3196.png'><br>
+        Predicted_before_training: 1234567890<br>
+        Predicted_after_training: 1234567890<br>
+        Ground Truth: Goods
+    </div><br>
+
+    <div>
+        <img src='./images/3198.png'><br>
+        Predicted_before_training: 9418623473<br>
+        Predicted_after_training: 9418623473<br>
+        Ground Truth: Excellent
+    </div><br>
+
+    <div>
+        <img src='./images/319.png'><br>
+        Predicted_before_training: H.P<br>
+        Predicted_after_training: H.P<br>
+        Ground Truth: PIN:175008
+    </div><br>
+
+    <div>
+        <img src='./images/3204.png'><br>
+        Predicted_before_training: OF<br>
+        Predicted_after_training: OF<br>
+        Ground Truth: 3405
+    </div><br>
+
+    <div>
+        <img src='./images/3205.png'><br>
+        Predicted_before_training: 30<br>
+        Predicted_after_training: 30<br>
+        Ground Truth: Qty.
+    </div><br>
+
+    <div>
+        <img src='./images/3208.png'><br>
+        Predicted_before_training: OF<br>
+        Predicted_after_training: OF<br>
+        Ground Truth: Price
+    </div><br>
+
+    <div>
+        <img src='./images/3209.png'><br>
+        Predicted_before_training: Receiver's<br>
+        Predicted_after_training: Receiver's<br>
+        Ground Truth: Discount
+    </div><br>
+
+    <div>
+        <img src='./images/3214.png'><br>
+        Predicted_before_training: 1.<br>
+        Predicted_after_training: 1.<br>
+        Ground Truth: Amount
+    </div><br>
+
+    <div>
+        <img src='./images/3228.png'><br>
+        Predicted_before_training: 2.<br>
+        Predicted_after_training: 2.<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/322.png'><br>
+        Predicted_before_training: Interest<br>
+        Predicted_after_training: Interest<br>
+        Ground Truth: 1234567890
+    </div><br>
+
+    <div>
+        <img src='./images/323.png'><br>
+        Predicted_before_training: will<br>
+        Predicted_after_training: will<br>
+        Ground Truth: 9418623473
+    </div><br>
+
+    <div>
+        <img src='./images/325.png'><br>
+        Predicted_before_training: be<br>
+        Predicted_after_training: be<br>
+        Ground Truth: H.P
+    </div><br>
+
+    <div>
+        <img src='./images/3261.png'><br>
+        Predicted_before_training: not<br>
+        Predicted_after_training: not<br>
+        Ground Truth: OF
+    </div><br>
+
+    <div>
+        <img src='./images/3270.png'><br>
+        Predicted_before_training: made<br>
+        Predicted_after_training: made<br>
+        Ground Truth: 30
+    </div><br>
+
+    <div>
+        <img src='./images/3283.png'><br>
+        Predicted_before_training: Himachal<br>
+        Predicted_after_training: Himachal<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/3286.png'><br>
+        Predicted_before_training: 4.<br>
+        Predicted_after_training: 4.<br>
+        Ground Truth: OF
+    </div><br>
+
+    <div>
+        <img src='./images/3296.png'><br>
+        Predicted_before_training: 1234567890<br>
+        Predicted_after_training: 1234567890<br>
+        Ground Truth: Receiver's
+    </div><br>
+
+    <div>
+        <img src='./images/3298.png'><br>
+        Predicted_before_training: Shop<br>
+        Predicted_after_training: Shop<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/3299.png'><br>
+        Predicted_before_training: Place<br>
+        Predicted_after_training: Place<br>
+        Ground Truth: 1.
+    </div><br>
+
+    <div>
+        <img src='./images/32.png'><br>
+        Predicted_before_training: Transport<br>
+        Predicted_after_training: Transport<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/3308.png'><br>
+        Predicted_before_training: Vehicle<br>
+        Predicted_after_training: Vehicle<br>
+        Ground Truth: 2.
+    </div><br>
+
+    <div>
+        <img src='./images/3309.png'><br>
+        Predicted_before_training: GST-212<br>
+        Predicted_after_training: GST-212<br>
+        Ground Truth: Interest
+    </div><br>
+
+    <div>
+        <img src='./images/3310.png'><br>
+        Predicted_before_training: 14-07-2020<br>
+        Predicted_after_training: 14-07-2020<br>
+        Ground Truth: €
+    </div><br>
+
+    <div>
+        <img src='./images/3313.png'><br>
+        Predicted_before_training: Himachal<br>
+        Predicted_after_training: Himachal<br>
+        Ground Truth: will
+    </div><br>
+
+    <div>
+        <img src='./images/3314.png'><br>
+        Predicted_before_training: (02)<br>
+        Predicted_after_training: (02)<br>
+        Ground Truth: be
+    </div><br>
+
+    <div>
+        <img src='./images/3316.png'><br>
+        Predicted_before_training: N<br>
+        Predicted_after_training: N<br>
+        Ground Truth: if
+    </div><br>
+
+    <div>
+        <img src='./images/3320.png'><br>
+        Predicted_before_training: Dist<br>
+        Predicted_after_training: Dist<br>
+        Ground Truth: not
+    </div><br>
+
+    <div>
+        <img src='./images/3321.png'><br>
+        Predicted_before_training: -175008<br>
+        Predicted_after_training: -175008<br>
+        Ground Truth: made
+    </div><br>
+
+    <div>
+        <img src='./images/333.png'><br>
+        Predicted_before_training: UIN<br>
+        Predicted_after_training: UIN<br>
+        Ground Truth: Himachal
+    </div><br>
+
+    <div>
+        <img src='./images/3356.png'><br>
+        Predicted_before_training: Description<br>
+        Predicted_after_training: Description<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/3358.png'><br>
+        Predicted_before_training: Goods<br>
+        Predicted_after_training: Goods<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/3359.png'><br>
+        Predicted_before_training: Rate(per<br>
+        Predicted_after_training: Rate(per<br>
+        Ground Truth: 4.
+    </div><br>
+
+    <div>
+        <img src='./images/335.png'><br>
+        Predicted_before_training: Block<br>
+        Predicted_after_training: Block<br>
+        Ground Truth: 1234567890
+    </div><br>
+
+    <div>
+        <img src='./images/3378.png'><br>
+        Predicted_before_training: Qty.<br>
+        Predicted_after_training: Qty.<br>
+        Ground Truth: Shop
+    </div><br>
+
+    <div>
+        <img src='./images/3393.png'><br>
+        Predicted_before_training: IGST<br>
+        Predicted_after_training: IGST<br>
+        Ground Truth: Place
+    </div><br>
+
+    <div>
+        <img src='./images/3400.png'><br>
+        Predicted_before_training: 1.00<br>
+        Predicted_after_training: 1.00<br>
+        Ground Truth: Transport
+    </div><br>
+
+    <div>
+        <img src='./images/3401.png'><br>
+        Predicted_before_training: Nos<br>
+        Predicted_after_training: Nos<br>
+        Ground Truth: Vehicle
+    </div><br>
+
+    <div>
+        <img src='./images/3410.png'><br>
+        Predicted_before_training: Amt.<br>
+        Predicted_after_training: Amt.<br>
+        Ground Truth: GST-212
+    </div><br>
+
+    <div>
+        <img src='./images/3411.png'><br>
+        Predicted_before_training: Tax<br>
+        Predicted_after_training: Tax<br>
+        Ground Truth: 14-07-2020
+    </div><br>
+
+    <div>
+        <img src='./images/3412.png'><br>
+        Predicted_before_training: 2,520.00<br>
+        Predicted_after_training: 2,520.00<br>
+        Ground Truth: Himachal
+    </div><br>
+
+    <div>
+        <img src='./images/3414.png'><br>
+        Predicted_before_training: Rupees<br>
+        Predicted_after_training: Rupees<br>
+        Ground Truth: (02)
+    </div><br>
+
+    <div>
+        <img src='./images/3415.png'><br>
+        Predicted_before_training: Rates<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: N
+    </div><br>
+
+    <div>
+        <img src='./images/3465.png'><br>
+        Predicted_before_training: %<br>
+        Predicted_after_training: %<br>
+        Ground Truth: Dist
+    </div><br>
+
+    <div>
+        <img src='./images/3470.png'><br>
+        Predicted_before_training: Only<br>
+        Predicted_after_training: Only<br>
+        Ground Truth: -175008
+    </div><br>
+
+    <div>
+        <img src='./images/3474.png'><br>
+        Predicted_before_training: no-912020030757794<br>
+        Predicted_after_training: n0.912020030757794<br>
+        Ground Truth: UIN
+    </div><br>
+
+    <div>
+        <img src='./images/3476.png'><br>
+        Predicted_before_training: Terms<br>
+        Predicted_after_training: Terms<br>
+        Ground Truth: Description
+    </div><br>
+
+    <div>
+        <img src='./images/3478.png'><br>
+        Predicted_before_training: 1.<br>
+        Predicted_after_training: 1.<br>
+        Ground Truth: Goods
+    </div><br>
+
+    <div>
+        <img src='./images/347.png'><br>
+        Predicted_before_training: Goods<br>
+        Predicted_after_training: Goods<br>
+        Ground Truth: Rate(per
+    </div><br>
+
+    <div>
+        <img src='./images/3481.png'><br>
+        Predicted_before_training: Subject<br>
+        Predicted_after_training: Subject<br>
+        Ground Truth: Block
+    </div><br>
+
+    <div>
+        <img src='./images/3492.png'><br>
+        Predicted_before_training: Jurisdiction<br>
+        Predicted_after_training: Jurisdiction<br>
+        Ground Truth: Qty.
+    </div><br>
+
+    <div>
+        <img src='./images/3498.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: IGST
+    </div><br>
+
+    <div>
+        <img src='./images/3502.png'><br>
+        Predicted_before_training: 1<br>
+        Predicted_after_training: 1<br>
+        Ground Truth: 1.00
+    </div><br>
+
+    <div>
+        <img src='./images/3514.png'><br>
+        Predicted_before_training: 2,822.03<br>
+        Predicted_after_training: 2,822.03<br>
+        Ground Truth: Nos
+    </div><br>
+
+    <div>
+        <img src='./images/3520.png'><br>
+        Predicted_before_training: 2,822.03<br>
+        Predicted_after_training: 2,822.03/<br>
+        Ground Truth: Amt.
+    </div><br>
+
+    <div>
+        <img src='./images/3524.png'><br>
+        Predicted_before_training: RECIPIENT<br>
+        Predicted_after_training: RECIPIENT<br>
+        Ground Truth: Tax
+    </div><br>
+
+    <div>
+        <img src='./images/3528.png'><br>
+        Predicted_before_training: AAKFC8151E<br>
+        Predicted_after_training: AAKFC8151E<br>
+        Ground Truth: 2,520.00
+    </div><br>
+
+    <div>
+        <img src='./images/3529.png'><br>
+        Predicted_before_training: TO<br>
+        Predicted_after_training: TO<br>
+        Ground Truth: Rupees
+    </div><br>
+
+    <div>
+        <img src='./images/352.png'><br>
+        Predicted_before_training: NO.<br>
+        Predicted_after_training: NO.<br>
+        Ground Truth: Rate%
+    </div><br>
+
+    <div>
+        <img src='./images/3535.png'><br>
+        Predicted_before_training: NOS<br>
+        Predicted_after_training: NOS<br>
+        Ground Truth: Only
+    </div><br>
+
+    <div>
+        <img src='./images/3542.png'><br>
+        Predicted_before_training: Feb2020<br>
+        Predicted_after_training: Feb2020<br>
+        Ground Truth: no-912020030757794
+    </div><br>
+
+    <div>
+        <img src='./images/3544.png'><br>
+        Predicted_before_training: TDS<br>
+        Predicted_after_training: TDS<br>
+        Ground Truth: Terms
+    </div><br>
+
+    <div>
+        <img src='./images/3552.png'><br>
+        Predicted_before_training: DUE<br>
+        Predicted_after_training: DUE<br>
+        Ground Truth: 1.
+    </div><br>
+
+    <div>
+        <img src='./images/3553.png'><br>
+        Predicted_before_training: Mode/Terms<br>
+        Predicted_after_training: Mode/Terms<br>
+        Ground Truth: Goods
+    </div><br>
+
+    <div>
+        <img src='./images/3581.png'><br>
+        Predicted_before_training: Other<br>
+        Predicted_after_training: Other<br>
+        Ground Truth: Subject
+    </div><br>
+
+    <div>
+        <img src='./images/3584.png'><br>
+        Predicted_before_training: Reference(s)<br>
+        Predicted_after_training: Reference(s)<br>
+        Ground Truth: Jurisdiction
+    </div><br>
+
+    <div>
+        <img src='./images/3607.png'><br>
+        Predicted_before_training: 14<br>
+        Predicted_after_training: 14<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/3648.png'><br>
+        Predicted_before_training: Fabricators<br>
+        Predicted_after_training: Fabricators<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/3650.png'><br>
+        Predicted_before_training: Sector-29<br>
+        Predicted_after_training: Sector-29<br>
+        Ground Truth: 1
+    </div><br>
+
+    <div>
+        <img src='./images/3667.png'><br>
+        Predicted_before_training: Code<br>
+        Predicted_after_training: Code<br>
+        Ground Truth: 2,822.03
+    </div><br>
+
+    <div>
+        <img src='./images/3668.png'><br>
+        Predicted_before_training: WARD<br>
+        Predicted_after_training: WARD<br>
+        Ground Truth: 2,822.03
+    </div><br>
+
+    <div>
+        <img src='./images/3681.png'><br>
+        Predicted_before_training: 14<br>
+        Predicted_after_training: 14<br>
+        Ground Truth: RECIPIENT
+    </div><br>
+
+    <div>
+        <img src='./images/3700.png'><br>
+        Predicted_before_training: DISTT.<br>
+        Predicted_after_training: DISTT.<br>
+        Ground Truth: AAKFC8151E
+    </div><br>
+
+    <div>
+        <img src='./images/3704.png'><br>
+        Predicted_before_training: *<br>
+        Predicted_after_training: 1<br>
+        Ground Truth: TO
+    </div><br>
+
+    <div>
+        <img src='./images/3729.png'><br>
+        Predicted_before_training: Delivery<br>
+        Predicted_after_training: Delivery<br>
+        Ground Truth: NO.
+    </div><br>
+
+    <div>
+        <img src='./images/374.png'><br>
+        Predicted_before_training: Despatch<br>
+        Predicted_after_training: Despatch<br>
+        Ground Truth: NOS
+    </div><br>
+
+    <div>
+        <img src='./images/3758.png'><br>
+        Predicted_before_training: Document<br>
+        Predicted_after_training: Document<br>
+        Ground Truth: Feb2020
+    </div><br>
+
+    <div>
+        <img src='./images/3781.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: TDS
+    </div><br>
+
+    <div>
+        <img src='./images/3784.png'><br>
+        Predicted_before_training: Lading/LR-RR<br>
+        Predicted_after_training: Lading/LR-RR<br>
+        Ground Truth: DUE
+    </div><br>
+
+    <div>
+        <img src='./images/3793.png'><br>
+        Predicted_before_training: 02ACTPG7583M12Z<br>
+        Predicted_after_training: 02ACTPG7583M12Z<br>
+        Ground Truth: Mode/Terms
+    </div><br>
+
+    <div>
+        <img src='./images/3796.png'><br>
+        Predicted_before_training: Sr<br>
+        Predicted_after_training: Sr<br>
+        Ground Truth: Other
+    </div><br>
+
+    <div>
+        <img src='./images/3797.png'><br>
+        Predicted_before_training: NO.<br>
+        Predicted_after_training: NO.<br>
+        Ground Truth: Reference(s)
+    </div><br>
+
+    <div>
+        <img src='./images/379.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: 14
+    </div><br>
+
+    <div>
+        <img src='./images/3804.png'><br>
+        Predicted_before_training: 7214<br>
+        Predicted_after_training: 7214<br>
+        Ground Truth: Fabricators
+    </div><br>
+
+    <div>
+        <img src='./images/3809.png'><br>
+        Predicted_before_training: KGS<br>
+        Predicted_after_training: KGS<br>
+        Ground Truth: Sector-29
+    </div><br>
+
+    <div>
+        <img src='./images/3817.png'><br>
+        Predicted_before_training: 43.00<br>
+        Predicted_after_training: 43.00<br>
+        Ground Truth: Code
+    </div><br>
+
+    <div>
+        <img src='./images/3828.png'><br>
+        Predicted_before_training: %<br>
+        Predicted_after_training: %<br>
+        Ground Truth: WARD
+    </div><br>
+
+    <div>
+        <img src='./images/382.png'><br>
+        Predicted_before_training: (-)0.20<br>
+        Predicted_after_training: (-)0.20<br>
+        Ground Truth: 14
+    </div><br>
+
+    <div>
+        <img src='./images/3843.png'><br>
+        Predicted_before_training: 6,44,140.00<br>
+        Predicted_after_training: 6,44,140.00<br>
+        Ground Truth: DISTT.
+    </div><br>
+
+    <div>
+        <img src='./images/3850.png'><br>
+        Predicted_before_training: 333.45<br>
+        Predicted_after_training: 333.45<br>
+        Ground Truth: (if
+    </div><br>
+
+    <div>
+        <img src='./images/3863.png'><br>
+        Predicted_before_training: 1,15,945.20<br>
+        Predicted_after_training: 1,15,945.20<br>
+        Ground Truth: Delivery
+    </div><br>
+
+    <div>
+        <img src='./images/3880.png'><br>
+        Predicted_before_training: INR<br>
+        Predicted_after_training: INR<br>
+        Ground Truth: Despatch
+    </div><br>
+
+    <div>
+        <img src='./images/3881.png'><br>
+        Predicted_before_training: Five<br>
+        Predicted_after_training: Five<br>
+        Ground Truth: Document
+    </div><br>
+
+    <div>
+        <img src='./images/3887.png'><br>
+        Predicted_before_training: AAFPL15990<br>
+        Predicted_after_training: AAFPL1599Q<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/3888.png'><br>
+        Predicted_before_training: invoice<br>
+        Predicted_after_training: invoice<br>
+        Ground Truth: Lading/LR-RR
+    </div><br>
+
+    <div>
+        <img src='./images/3893.png'><br>
+        Predicted_before_training: price<br>
+        Predicted_after_training: price<br>
+        Ground Truth: 02ACTPG7583M1ZZ
+    </div><br>
+
+    <div>
+        <img src='./images/3897.png'><br>
+        Predicted_before_training: a<br>
+        Predicted_after_training: a<br>
+        Ground Truth: .
+    </div><br>
+
+    <div>
+        <img src='./images/38.png'><br>
+        Predicted_before_training: 2<br>
+        Predicted_after_training: 2<br>
+        Ground Truth: Sr
+    </div><br>
+
+    <div>
+        <img src='./images/3905.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: NO.
+    </div><br>
+
+    <div>
+        <img src='./images/3919.png'><br>
+        Predicted_before_training: Phone<br>
+        Predicted_after_training: Phone<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/3923.png'><br>
+        Predicted_before_training: To:<br>
+        Predicted_after_training: To:<br>
+        Ground Truth: 7214
+    </div><br>
+
+    <div>
+        <img src='./images/3934.png'><br>
+        Predicted_before_training: Contact<br>
+        Predicted_after_training: Contact<br>
+        Ground Truth: KGS
+    </div><br>
+
+    <div>
+        <img src='./images/3935.png'><br>
+        Predicted_before_training: Number:<br>
+        Predicted_after_training: Number:<br>
+        Ground Truth: 43.00
+    </div><br>
+
+    <div>
+        <img src='./images/3939.png'><br>
+        Predicted_before_training: 2<br>
+        Predicted_after_training: 2<br>
+        Ground Truth: %
+    </div><br>
+
+    <div>
+        <img src='./images/3941.png'><br>
+        Predicted_before_training: HL<br>
+        Predicted_after_training: HL<br>
+        Ground Truth: (-)0.20
+    </div><br>
+
+    <div>
+        <img src='./images/3948.png'><br>
+        Predicted_before_training: PRINTEX<br>
+        Predicted_after_training: PRINTEX<br>
+        Ground Truth: 6,44,140.00
+    </div><br>
+
+    <div>
+        <img src='./images/394.png'><br>
+        Predicted_before_training: DELLIVERD<br>
+        Predicted_after_training: DELLIVERD<br>
+        Ground Truth: 333.45
+    </div><br>
+
+    <div>
+        <img src='./images/3979.png'><br>
+        Predicted_before_training: 18-11-2020<br>
+        Predicted_after_training: 18-11-2020<br>
+        Ground Truth: 1,15,945.20
+    </div><br>
+
+    <div>
+        <img src='./images/3985.png'><br>
+        Predicted_before_training: 3<br>
+        Predicted_after_training: F<br>
+        Ground Truth: INR
+    </div><br>
+
+    <div>
+        <img src='./images/3993.png'><br>
+        Predicted_before_training: 2,822.03<br>
+        Predicted_after_training: 2,822.03<br>
+        Ground Truth: Five
+    </div><br>
+
+    <div>
+        <img src='./images/4004.png'><br>
+        Predicted_before_training: 423.73<br>
+        Predicted_after_training: 7423.73<br>
+        Ground Truth: AAFPL1599Q
+    </div><br>
+
+    <div>
+        <img src='./images/4014.png'><br>
+        Predicted_before_training: INVOICE<br>
+        Predicted_after_training: INVOICE<br>
+        Ground Truth: invoice
+    </div><br>
+
+    <div>
+        <img src='./images/4018.png'><br>
+        Predicted_before_training: 51,389.83<br>
+        Predicted_after_training: 51,389.83<br>
+        Ground Truth: price
+    </div><br>
+
+    <div>
+        <img src='./images/4025.png'><br>
+        Predicted_before_training: Thanks<br>
+        Predicted_after_training: Thanks<br>
+        Ground Truth: all
+    </div><br>
+
+    <div>
+        <img src='./images/402.png'><br>
+        Predicted_before_training: RAJ<br>
+        Predicted_after_training: RAJ<br>
+        Ground Truth: 2
+    </div><br>
+
+    <div>
+        <img src='./images/4035.png'><br>
+        Predicted_before_training: Leyparts<br>
+        Predicted_after_training: Leyparts<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/4039.png'><br>
+        Predicted_before_training: Jeet.<br>
+        Predicted_after_training: Jeet.<br>
+        Ground Truth: Phone
+    </div><br>
+
+    <div>
+        <img src='./images/4056.png'><br>
+        Predicted_before_training: JEET<br>
+        Predicted_after_training: JEET<br>
+        Ground Truth: To:
+    </div><br>
+
+    <div>
+        <img src='./images/4060.png'><br>
+        Predicted_before_training: GUPTA<br>
+        Predicted_after_training: GUPTA<br>
+        Ground Truth: Contact
+    </div><br>
+
+    <div>
+        <img src='./images/4064.png'><br>
+        Predicted_before_training: Description<br>
+        Predicted_after_training: Description<br>
+        Ground Truth: Number:
+    </div><br>
+
+    <div>
+        <img src='./images/4073.png'><br>
+        Predicted_before_training: 747.12<br>
+        Predicted_after_training: 747.12<br>
+        Ground Truth: 2
+    </div><br>
+
+    <div>
+        <img src='./images/4076.png'><br>
+        Predicted_before_training: TOTAL<br>
+        Predicted_after_training: TOTAL<br>
+        Ground Truth: HL
+    </div><br>
+
+    <div>
+        <img src='./images/4077.png'><br>
+        Predicted_before_training: 184.32<br>
+        Predicted_after_training: 184.32<br>
+        Ground Truth: 3
+    </div><br>
+
+    <div>
+        <img src='./images/4078.png'><br>
+        Predicted_before_training: 747.12<br>
+        Predicted_after_training: 747.12<br>
+        Ground Truth: PRINTEX
+    </div><br>
+
+    <div>
+        <img src='./images/4088.png'><br>
+        Predicted_before_training: (Excluding<br>
+        Predicted_after_training: (Excluding<br>
+        Ground Truth: DELLIVERD
+    </div><br>
+
+    <div>
+        <img src='./images/4099.png'><br>
+        Predicted_before_training: Tax<br>
+        Predicted_after_training: Tax<br>
+        Ground Truth: 18-11-2020
+    </div><br>
+
+    <div>
+        <img src='./images/4122.png'><br>
+        Predicted_before_training: Seven<br>
+        Predicted_after_training: Seven<br>
+        Ground Truth: 72,822.03
+    </div><br>
+
+    <div>
+        <img src='./images/4140.png'><br>
+        Predicted_before_training: BANK<br>
+        Predicted_after_training: BANK<br>
+        Ground Truth: 7423.73
+    </div><br>
+
+    <div>
+        <img src='./images/4145.png'><br>
+        Predicted_before_training: 0730102000001861<br>
+        Predicted_after_training: 0730102000001861<br>
+        Ground Truth: INVOICE
+    </div><br>
+
+    <div>
+        <img src='./images/4158.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: 51,389.83
+    </div><br>
+
+    <div>
+        <img src='./images/4167.png'><br>
+        Predicted_before_training: Wholesale<br>
+        Predicted_after_training: Wholesale<br>
+        Ground Truth: Thanks
+    </div><br>
+
+    <div>
+        <img src='./images/4174.png'><br>
+        Predicted_before_training: wS<br>
+        Predicted_after_training: WS<br>
+        Ground Truth: RAJ
+    </div><br>
+
+    <div>
+        <img src='./images/4195.png'><br>
+        Predicted_before_training: Sign�ur<br>
+        Predicted_after_training: Signatur<br>
+        Ground Truth: Leyparts
+    </div><br>
+
+    <div>
+        <img src='./images/4199.png'><br>
+        Predicted_before_training: +<br>
+        Predicted_after_training: +<br>
+        Ground Truth: Jeet.
+    </div><br>
+
+    <div>
+        <img src='./images/4206.png'><br>
+        Predicted_before_training: Lifted<br>
+        Predicted_after_training: Lifted<br>
+        Ground Truth: JEET
+    </div><br>
+
+    <div>
+        <img src='./images/4208.png'><br>
+        Predicted_before_training: Signature<br>
+        Predicted_after_training: Signature<br>
+        Ground Truth: GUPTA
+    </div><br>
+
+    <div>
+        <img src='./images/4211.png'><br>
+        Predicted_before_training: -<br>
+        Predicted_after_training: I<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/4223.png'><br>
+        Predicted_before_training: our<br>
+        Predicted_after_training: our<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/4234.png'><br>
+        Predicted_before_training: RAJ<br>
+        Predicted_after_training: RAJ<br>
+        Ground Truth: Description
+    </div><br>
+
+    <div>
+        <img src='./images/4265.png'><br>
+        Predicted_before_training: amshtadngemalinutcom<br>
+        Predicted_after_training: iamaiehasadhgereltmalcm<br>
+        Ground Truth: 747.12
+    </div><br>
+
+    <div>
+        <img src='./images/4267.png'><br>
+        Predicted_before_training: To:<br>
+        Predicted_after_training: To:<br>
+        Ground Truth: TOTAL
+    </div><br>
+
+    <div>
+        <img src='./images/4270.png'><br>
+        Predicted_before_training: Item<br>
+        Predicted_after_training: Item<br>
+        Ground Truth: 184.32
+    </div><br>
+
+    <div>
+        <img src='./images/4274.png'><br>
+        Predicted_before_training: -<br>
+        Predicted_after_training: <br>
+        Ground Truth: 747.12
+    </div><br>
+
+    <div>
+        <img src='./images/4291.png'><br>
+        Predicted_before_training: PRINTEX<br>
+        Predicted_after_training: PRINTEX<br>
+        Ground Truth: (Excluding
+    </div><br>
+
+    <div>
+        <img src='./images/4302.png'><br>
+        Predicted_before_training: VPO<br>
+        Predicted_after_training: VPO<br>
+        Ground Truth: Tax
+    </div><br>
+
+    <div>
+        <img src='./images/4304.png'><br>
+        Predicted_before_training: RATTI<br>
+        Predicted_after_training: RATTI<br>
+        Ground Truth: Seven
+    </div><br>
+
+    <div>
+        <img src='./images/4309.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: BANK
+    </div><br>
+
+    <div>
+        <img src='./images/4311.png'><br>
+        Predicted_before_training: GST<br>
+        Predicted_after_training: GST<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/4315.png'><br>
+        Predicted_before_training: (18%)<br>
+        Predicted_after_training: (18%)<br>
+        Ground Truth: 0730102000001861
+    </div><br>
+
+    <div>
+        <img src='./images/4334.png'><br>
+        Predicted_before_training: (18%)<br>
+        Predicted_after_training: (18%)<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/4341.png'><br>
+        Predicted_before_training: <<br>
+            Predicted_after_training: @<br>
+            Ground Truth: Wholesale
+    </div><br>
+
+    <div>
+        <img src='./images/4343.png'><br>
+        Predicted_before_training: -<br>
+        Predicted_after_training: -<br>
+        Ground Truth: WS
+    </div><br>
+
+    <div>
+        <img src='./images/436.png'><br>
+        Predicted_before_training: 11,000.00<br>
+        Predicted_after_training: 11,000.00<br>
+        Ground Truth: Signatur
+    </div><br>
+
+    <div>
+        <img src='./images/4484.png'><br>
+        Predicted_before_training: 12:37:52<br>
+        Predicted_after_training: 12:37:52<br>
+        Ground Truth: (+)
+    </div><br>
+
+    <div>
+        <img src='./images/4508.png'><br>
+        Predicted_before_training: IST<br>
+        Predicted_after_training: IST<br>
+        Ground Truth: Lifted
+    </div><br>
+
+    <div>
+        <img src='./images/4513.png'><br>
+        Predicted_before_training: <<br>
+            Predicted_after_training: @<br>
+            Ground Truth: Signature
+    </div><br>
+
+    <div>
+        <img src='./images/4532.png'><br>
+        Predicted_before_training: 423.73<br>
+        Predicted_after_training: 423.73<br>
+        Ground Truth: will
+    </div><br>
+
+    <div>
+        <img src='./images/4554.png'><br>
+        Predicted_before_training: Six<br>
+        Predicted_after_training: Six<br>
+        Ground Truth: our
+    </div><br>
+
+    <div>
+        <img src='./images/4564.png'><br>
+        Predicted_before_training: us!<br>
+        Predicted_after_training: us!<br>
+        Ground Truth: RAJ
+    </div><br>
+
+    <div>
+        <img src='./images/4571.png'><br>
+        Predicted_before_training: -<br>
+        Predicted_after_training: @<br>
+        Ground Truth: kamakshatrading@rediffmail.com
+    </div><br>
+
+    <div>
+        <img src='./images/4588.png'><br>
+        Predicted_before_training: 4,625.08<br>
+        Predicted_after_training: 4,625.08<br>
+        Ground Truth: To:
+    </div><br>
+
+    <div>
+        <img src='./images/4601.png'><br>
+        Predicted_before_training: *<br>
+        Predicted_after_training: @<br>
+        Ground Truth: Item
+    </div><br>
+
+    <div>
+        <img src='./images/4609.png'><br>
+        Predicted_before_training: -<br>
+        Predicted_after_training: I<br>
+        Ground Truth: 3
+    </div><br>
+
+    <div>
+        <img src='./images/4610.png'><br>
+        Predicted_before_training: 0.00<br>
+        Predicted_after_training: 0.00<br>
+        Ground Truth: PRINTEX
+    </div><br>
+
+    <div>
+        <img src='./images/4619.png'><br>
+        Predicted_before_training: AUTOMOBILES<br>
+        Predicted_after_training: AUTOMOBILES<br>
+        Ground Truth: VPORATTI
+    </div><br>
+
+    <div>
+        <img src='./images/4627.png'><br>
+        Predicted_before_training: &<br>
+        Predicted_after_training: &<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/4652.png'><br>
+        Predicted_before_training: SONS<br>
+        Predicted_after_training: SONS<br>
+        Ground Truth: GST
+    </div><br>
+
+    <div>
+        <img src='./images/4656.png'><br>
+        Predicted_before_training: PVT.<br>
+        Predicted_after_training: PVT.<br>
+        Ground Truth: (18%)
+    </div><br>
+
+    <div>
+        <img src='./images/4658.png'><br>
+        Predicted_before_training: Ref.<br>
+        Predicted_after_training: Ref.<br>
+        Ground Truth: (18%)
+    </div><br>
+
+    <div>
+        <img src='./images/4667.png'><br>
+        Predicted_before_training: TRADERS<br>
+        Predicted_after_training: TRADERS<br>
+        Ground Truth: €11,000.00
+    </div><br>
+
+    <div>
+        <img src='./images/466.png'><br>
+        Predicted_before_training: MANDI<br>
+        Predicted_after_training: MANDI<br>
+        Ground Truth: 12:37:521ST
+    </div><br>
+
+    <div>
+        <img src='./images/4670.png'><br>
+        Predicted_before_training: PH:<br>
+        Predicted_after_training: PH:<br>
+        Ground Truth: €423.73
+    </div><br>
+
+    <div>
+        <img src='./images/4679.png'><br>
+        Predicted_before_training: Pradesh,<br>
+        Predicted_after_training: Pradesh,<br>
+        Ground Truth: Six
+    </div><br>
+
+    <div>
+        <img src='./images/4692.png'><br>
+        Predicted_before_training: SIMO1<br>
+        Predicted_after_training: SIM01<br>
+        Ground Truth: us!
+    </div><br>
+
+    <div>
+        <img src='./images/4695.png'><br>
+        Predicted_before_training: Gupta<br>
+        Predicted_after_training: Gupta<br>
+        Ground Truth: €4,625.08
+    </div><br>
+
+    <div>
+        <img src='./images/4697.png'><br>
+        Predicted_before_training: Delivery<br>
+        Predicted_after_training: Delivery<br>
+        Ground Truth: €0.00
+    </div><br>
+
+    <div>
+        <img src='./images/469.png'><br>
+        Predicted_before_training: Date<br>
+        Predicted_after_training: Date<br>
+        Ground Truth: AUTOMOBILES
+    </div><br>
+
+    <div>
+        <img src='./images/4701.png'><br>
+        Predicted_before_training: 02ACTPG7583M1ZZ<br>
+        Predicted_after_training: 02ACTPG7583M1ZZ<br>
+        Ground Truth: &
+    </div><br>
+
+    <div>
+        <img src='./images/4702.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: SONS
+    </div><br>
+
+    <div>
+        <img src='./images/470.png'><br>
+        Predicted_before_training: E&O.E<br>
+        Predicted_after_training: E&O.E<br>
+        Ground Truth: PVT.
+    </div><br>
+
+    <div>
+        <img src='./images/4713.png'><br>
+        Predicted_before_training: E.&O.E<br>
+        Predicted_after_training: E.&O.E<br>
+        Ground Truth: Ref.
+    </div><br>
+
+    <div>
+        <img src='./images/4732.png'><br>
+        Predicted_before_training: (in<br>
+        Predicted_after_training: (in<br>
+        Ground Truth: TRADERS
+    </div><br>
+
+    <div>
+        <img src='./images/473.png'><br>
+        Predicted_before_training: Indian<br>
+        Predicted_after_training: Indian<br>
+        Ground Truth: MANDI
+    </div><br>
+
+    <div>
+        <img src='./images/4740.png'><br>
+        Predicted_before_training: Rupees<br>
+        Predicted_after_training: Rupees<br>
+        Ground Truth: PH:
+    </div><br>
+
+    <div>
+        <img src='./images/4747.png'><br>
+        Predicted_before_training: 52.63<br>
+        Predicted_after_training: 52.63<br>
+        Ground Truth: Pradesh,
+    </div><br>
+
+    <div>
+        <img src='./images/474.png'><br>
+        Predicted_before_training: Tax<br>
+        Predicted_after_training: Tax<br>
+        Ground Truth: SIMO1
+    </div><br>
+
+    <div>
+        <img src='./images/4756.png'><br>
+        Predicted_before_training: 1<br>
+        Predicted_after_training: 1<br>
+        Ground Truth: Gupta
+    </div><br>
+
+    <div>
+        <img src='./images/4764.png'><br>
+        Predicted_before_training: and<br>
+        Predicted_after_training: and<br>
+        Ground Truth: Delivery
+    </div><br>
+
+    <div>
+        <img src='./images/4766.png'><br>
+        Predicted_before_training: Name<br>
+        Predicted_after_training: Name<br>
+        Ground Truth: Date
+    </div><br>
+
+    <div>
+        <img src='./images/4767.png'><br>
+        Predicted_before_training: are<br>
+        Predicted_after_training: are<br>
+        Ground Truth: 02ACTPG7583M1ZZ
+    </div><br>
+
+    <div>
+        <img src='./images/4776.png'><br>
+        Predicted_before_training: The<br>
+        Predicted_after_training: The<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/477.png'><br>
+        Predicted_before_training: entitled<br>
+        Predicted_after_training: entitled<br>
+        Ground Truth: E&O.E
+    </div><br>
+
+    <div>
+        <img src='./images/4809.png'><br>
+        Predicted_before_training: manufacturer<br>
+        Predicted_after_training: manufacturer<br>
+        Ground Truth: E.&0.E
+    </div><br>
+
+    <div>
+        <img src='./images/4815.png'><br>
+        Predicted_before_training: only<br>
+        Predicted_after_training: only<br>
+        Ground Truth: (in
+    </div><br>
+
+    <div>
+        <img src='./images/4817.png'><br>
+        Predicted_before_training: the<br>
+        Predicted_after_training: the<br>
+        Ground Truth: Indian
+    </div><br>
+
+    <div>
+        <img src='./images/4818.png'><br>
+        Predicted_before_training: on<br>
+        Predicted_after_training: on<br>
+        Ground Truth: Rupees
+    </div><br>
+
+    <div>
+        <img src='./images/4839.png'><br>
+        Predicted_before_training: Recipient)<br>
+        Predicted_after_training: Recipient)<br>
+        Ground Truth: 52.63
+    </div><br>
+
+    <div>
+        <img src='./images/4843.png'><br>
+        Predicted_before_training: OF<br>
+        Predicted_after_training: OF<br>
+        Ground Truth: Tax
+    </div><br>
+
+    <div>
+        <img src='./images/4853.png'><br>
+        Predicted_before_training: Delivery<br>
+        Predicted_after_training: Delivery<br>
+        Ground Truth: and
+    </div><br>
+
+    <div>
+        <img src='./images/4862.png'><br>
+        Predicted_before_training: Disci<br>
+        Predicted_after_training: Disc<br>
+        Ground Truth: Name
+    </div><br>
+
+    <div>
+        <img src='./images/4878.png'><br>
+        Predicted_before_training: IGOMPVC<br>
+        Predicted_after_training: IOOWMPVC<br>
+        Ground Truth: are
+    </div><br>
+
+    <div>
+        <img src='./images/4891.png'><br>
+        Predicted_before_training: PIPE<br>
+        Predicted_after_training: PIPE<br>
+        Ground Truth: The
+    </div><br>
+
+    <div>
+        <img src='./images/4897.png'><br>
+        Predicted_before_training: PC<br>
+        Predicted_after_training: PC<br>
+        Ground Truth: entitled
+    </div><br>
+
+    <div>
+        <img src='./images/4899.png'><br>
+        Predicted_before_training: 1<br>
+        Predicted_after_training: 1<br>
+        Ground Truth: manufacturer
+    </div><br>
+
+    <div>
+        <img src='./images/4900.png'><br>
+        Predicted_before_training: PCS<br>
+        Predicted_after_training: PCS<br>
+        Ground Truth: only
+    </div><br>
+
+    <div>
+        <img src='./images/4913.png'><br>
+        Predicted_before_training: GST<br>
+        Predicted_after_training: GST<br>
+        Ground Truth: the
+    </div><br>
+
+    <div>
+        <img src='./images/4921.png'><br>
+        Predicted_before_training: PHASE<br>
+        Predicted_after_training: PHASE<br>
+        Ground Truth: on
+    </div><br>
+
+    <div>
+        <img src='./images/492.png'><br>
+        Predicted_before_training: GST<br>
+        Predicted_after_training: GST<br>
+        Ground Truth: Recipient)
+    </div><br>
+
+    <div>
+        <img src='./images/497.png'><br>
+        Predicted_before_training: Thousand<br>
+        Predicted_after_training: Thousand<br>
+        Ground Truth: OF
+    </div><br>
+
+    <div>
+        <img src='./images/4994.png'><br>
+        Predicted_before_training: 10.68<br>
+        Predicted_after_training: 1068<br>
+        Ground Truth: Delivery
+    </div><br>
+
+    <div>
+        <img src='./images/5015.png'><br>
+        Predicted_before_training: 613.22<br>
+        Predicted_after_training: 613.22<br>
+        Ground Truth: Disc
+    </div><br>
+
+    <div>
+        <img src='./images/5018.png'><br>
+        Predicted_before_training: 9%<br>
+        Predicted_after_training: 9%<br>
+        Ground Truth: GOMMPVC
+    </div><br>
+
+    <div>
+        <img src='./images/5021.png'><br>
+        Predicted_before_training: Central<br>
+        Predicted_after_training: Central<br>
+        Ground Truth: PIPE
+    </div><br>
+
+    <div>
+        <img src='./images/5026.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: PC
+    </div><br>
+
+    <div>
+        <img src='./images/5036.png'><br>
+        Predicted_before_training: 5.34<br>
+        Predicted_after_training: 5.34<br>
+        Ground Truth: 1PCS
+    </div><br>
+
+    <div>
+        <img src='./images/5049.png'><br>
+        Predicted_before_training: paise<br>
+        Predicted_after_training: paise<br>
+        Ground Truth: GST
+    </div><br>
+
+    <div>
+        <img src='./images/504.png'><br>
+        Predicted_before_training: Hundred<br>
+        Predicted_after_training: Hundred<br>
+        Ground Truth: PHASE
+    </div><br>
+
+    <div>
+        <img src='./images/5051.png'><br>
+        Predicted_before_training: In<br>
+        Predicted_after_training: II<br>
+        Ground Truth: GST
+    </div><br>
+
+    <div>
+        <img src='./images/5058.png'><br>
+        Predicted_before_training: bill<br>
+        Predicted_after_training: bill<br>
+        Ground Truth: Thousand
+    </div><br>
+
+    <div>
+        <img src='./images/5065.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: 10.68
+    </div><br>
+
+    <div>
+        <img src='./images/5066.png'><br>
+        Predicted_before_training: Interest<br>
+        Predicted_after_training: Interest<br>
+        Ground Truth: 613.22
+    </div><br>
+
+    <div>
+        <img src='./images/5072.png'><br>
+        Predicted_before_training: &<br>
+        Predicted_after_training: &<br>
+        Ground Truth: 9%
+    </div><br>
+
+    <div>
+        <img src='./images/5075.png'><br>
+        Predicted_before_training: Store<br>
+        Predicted_after_training: Store<br>
+        Ground Truth: Central
+    </div><br>
+
+    <div>
+        <img src='./images/5077.png'><br>
+        Predicted_before_training: This<br>
+        Predicted_after_training: This<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/5080.png'><br>
+        Predicted_before_training: Firc<br>
+        Predicted_after_training: Hirc<br>
+        Ground Truth: 5.34
+    </div><br>
+
+    <div>
+        <img src='./images/5094.png'><br>
+        Predicted_before_training: RATTI<br>
+        Predicted_after_training: RATII<br>
+        Ground Truth: paise
+    </div><br>
+
+    <div>
+        <img src='./images/5101.png'><br>
+        Predicted_before_training: No-<br>
+        Predicted_after_training: No-<br>
+        Ground Truth: Hundred
+    </div><br>
+
+    <div>
+        <img src='./images/5112.png'><br>
+        Predicted_before_training: 15<br>
+        Predicted_after_training: 15<br>
+        Ground Truth: in
+    </div><br>
+
+    <div>
+        <img src='./images/5121.png'><br>
+        Predicted_before_training: LH-763<br>
+        Predicted_after_training: LH-763<br>
+        Ground Truth: bill
+    </div><br>
+
+    <div>
+        <img src='./images/512.png'><br>
+        Predicted_before_training: No-<br>
+        Predicted_after_training: No-<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/5131.png'><br>
+        Predicted_before_training: Part<br>
+        Predicted_after_training: Part<br>
+        Ground Truth: Interest
+    </div><br>
+
+    <div>
+        <img src='./images/5149.png'><br>
+        Predicted_before_training: 6309<br>
+        Predicted_after_training: 6309<br>
+        Ground Truth: &
+    </div><br>
+
+    <div>
+        <img src='./images/5151.png'><br>
+        Predicted_before_training: Amt<br>
+        Predicted_after_training: Amt<br>
+        Ground Truth: Store
+    </div><br>
+
+    <div>
+        <img src='./images/5155.png'><br>
+        Predicted_before_training: 15W40<br>
+        Predicted_after_training: 15W40<br>
+        Ground Truth: This
+    </div><br>
+
+    <div>
+        <img src='./images/5165.png'><br>
+        Predicted_before_training: 3,190.00<br>
+        Predicted_after_training: 3,190.00<br>
+        Ground Truth: hira
+    </div><br>
+
+    <div>
+        <img src='./images/5190.png'><br>
+        Predicted_before_training: 2,821.52<br>
+        Predicted_after_training: 2,821.52<br>
+        Ground Truth: RATTI
+    </div><br>
+
+    <div>
+        <img src='./images/5193.png'><br>
+        Predicted_before_training: 2,306.40<br>
+        Predicted_after_training: 2,306.40<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/51.png'><br>
+        Predicted_before_training: Two<br>
+        Predicted_after_training: Two<br>
+        Ground Truth: No-
+    </div><br>
+
+    <div>
+        <img src='./images/5206.png'><br>
+        Predicted_before_training: CHOWK<br>
+        Predicted_after_training: CHOWK<br>
+        Ground Truth: 15
+    </div><br>
+
+    <div>
+        <img src='./images/5214.png'><br>
+        Predicted_before_training: better,<br>
+        Predicted_after_training: better,<br>
+        Ground Truth: LH-763
+    </div><br>
+
+    <div>
+        <img src='./images/5219.png'><br>
+        Predicted_before_training: GSTIN<br>
+        Predicted_after_training: JGSTIN<br>
+        Ground Truth: No-
+    </div><br>
+
+    <div>
+        <img src='./images/5224.png'><br>
+        Predicted_before_training: PMG<br>
+        Predicted_after_training: PMG<br>
+        Ground Truth: Part
+    </div><br>
+
+    <div>
+        <img src='./images/5232.png'><br>
+        Predicted_before_training: Delivery<br>
+        Predicted_after_training: Delivery<br>
+        Ground Truth: 6309
+    </div><br>
+
+    <div>
+        <img src='./images/5246.png'><br>
+        Predicted_before_training: /Place<br>
+        Predicted_after_training: /Place<br>
+        Ground Truth: Amt
+    </div><br>
+
+    <div>
+        <img src='./images/5268.png'><br>
+        Predicted_before_training: Supply:<br>
+        Predicted_after_training: Supply:<br>
+        Ground Truth: 15W40
+    </div><br>
+
+    <div>
+        <img src='./images/5284.png'><br>
+        Predicted_before_training: 1<br>
+        Predicted_after_training: 1<br>
+        Ground Truth: 3,190.00
+    </div><br>
+
+    <div>
+        <img src='./images/5289.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: 2,821.52
+    </div><br>
+
+    <div>
+        <img src='./images/5326.png'><br>
+        Predicted_before_training: Himachal<br>
+        Predicted_after_training: Himachal<br>
+        Ground Truth: 2,306.40
+    </div><br>
+
+    <div>
+        <img src='./images/5344.png'><br>
+        Predicted_before_training: 19:15:27<br>
+        Predicted_after_training: 19:15:27<br>
+        Ground Truth: Two
+    </div><br>
+
+    <div>
+        <img src='./images/535.png'><br>
+        Predicted_before_training: RAJESH<br>
+        Predicted_after_training: RAJESH<br>
+        Ground Truth: CHOWK
+    </div><br>
+
+    <div>
+        <img src='./images/5363.png'><br>
+        Predicted_before_training: JEET<br>
+        Predicted_after_training: JEET<br>
+        Ground Truth: better,
+    </div><br>
+
+    <div>
+        <img src='./images/536.png'><br>
+        Predicted_before_training: KUMAR<br>
+        Predicted_after_training: KUMAR<br>
+        Ground Truth: GSTIN
+    </div><br>
+
+    <div>
+        <img src='./images/5372.png'><br>
+        Predicted_before_training: HP32A0041<br>
+        Predicted_after_training: HP32A0041<br>
+        Ground Truth: PMG
+    </div><br>
+
+    <div>
+        <img src='./images/5378.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: Delivery
+    </div><br>
+
+    <div>
+        <img src='./images/5379.png'><br>
+        Predicted_before_training: Of<br>
+        Predicted_after_training: Of<br>
+        Ground Truth: /Place
+    </div><br>
+
+    <div>
+        <img src='./images/5381.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: Invoice<br>
+        Ground Truth: Supply:
+    </div><br>
+
+    <div>
+        <img src='./images/5386.png'><br>
+        Predicted_before_training: Date<br>
+        Predicted_after_training: Date<br>
+        Ground Truth: 1
+    </div><br>
+
+    <div>
+        <img src='./images/5399.png'><br>
+        Predicted_before_training: SA<br>
+        Predicted_after_training: SA<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/539.png'><br>
+        Predicted_before_training: 87089900<br>
+        Predicted_after_training: 87089900<br>
+        Ground Truth: Himachal
+    </div><br>
+
+    <div>
+        <img src='./images/5406.png'><br>
+        Predicted_before_training: 87089900<br>
+        Predicted_after_training: 87089900<br>
+        Ground Truth: 19:15:27
+    </div><br>
+
+    <div>
+        <img src='./images/5407.png'><br>
+        Predicted_before_training: 1196.09<br>
+        Predicted_after_training: 1196.09<br>
+        Ground Truth: RAJESH
+    </div><br>
+
+    <div>
+        <img src='./images/5428.png'><br>
+        Predicted_before_training: 1<br>
+        Predicted_after_training: 1<br>
+        Ground Truth: JEETKUMAR
+    </div><br>
+
+    <div>
+        <img src='./images/5453.png'><br>
+        Predicted_before_training: SR<br>
+        Predicted_after_training: SR<br>
+        Ground Truth: HP32A0041
+    </div><br>
+
+    <div>
+        <img src='./images/545.png'><br>
+        Predicted_before_training: Labor<br>
+        Predicted_after_training: Labor<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/5461.png'><br>
+        Predicted_before_training: RECOMMENDATIONS<br>
+        Predicted_after_training: RECOMMENDATIONS<br>
+        Ground Truth: Of
+    </div><br>
+
+    <div>
+        <img src='./images/5476.png'><br>
+        Predicted_before_training: CGST<br>
+        Predicted_after_training: CGST<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/5477.png'><br>
+        Predicted_before_training: CGST<br>
+        Predicted_after_training: CGST<br>
+        Ground Truth: Date
+    </div><br>
+
+    <div>
+        <img src='./images/5480.png'><br>
+        Predicted_before_training: TGST%<br>
+        Predicted_after_training: IGST%<br>
+        Ground Truth: SAI
+    </div><br>
+
+    <div>
+        <img src='./images/5494.png'><br>
+        Predicted_before_training: 545.00<br>
+        Predicted_after_training: 545.00<br>
+        Ground Truth: 87089900
+    </div><br>
+
+    <div>
+        <img src='./images/5498.png'><br>
+        Predicted_before_training: delivered<br>
+        Predicted_after_training: delivered<br>
+        Ground Truth: 87089900
+    </div><br>
+
+    <div>
+        <img src='./images/5502.png'><br>
+        Predicted_before_training: only<br>
+        Predicted_after_training: only<br>
+        Ground Truth: 1196.09
+    </div><br>
+
+    <div>
+        <img src='./images/550.png'><br>
+        Predicted_before_training: IGST<br>
+        Predicted_after_training: IGST<br>
+        Ground Truth: 1
+    </div><br>
+
+    <div>
+        <img src='./images/5514.png'><br>
+        Predicted_before_training: 643.10<br>
+        Predicted_after_training: 643.10<br>
+        Ground Truth: SR
+    </div><br>
+
+    <div>
+        <img src='./images/5515.png'><br>
+        Predicted_before_training: charges-<br>
+        Predicted_after_training: charges-<br>
+        Ground Truth: Labor
+    </div><br>
+
+    <div>
+        <img src='./images/5522.png'><br>
+        Predicted_before_training: KUMAR<br>
+        Predicted_after_training: KUMAR<br>
+        Ground Truth: RECOMMENDATIONS:
+    </div><br>
+
+    <div>
+        <img src='./images/5532.png'><br>
+        Predicted_before_training: delivery<br>
+        Predicted_after_training: delivery<br>
+        Ground Truth: CGST
+    </div><br>
+
+    <div>
+        <img src='./images/5533.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: CGST
+    </div><br>
+
+    <div>
+        <img src='./images/5544.png'><br>
+        Predicted_before_training: been<br>
+        Predicted_after_training: been<br>
+        Ground Truth: TGST%
+    </div><br>
+
+    <div>
+        <img src='./images/5553.png'><br>
+        Predicted_before_training: toi<br>
+        Predicted_after_training: toI<br>
+        Ground Truth: 545.00
+    </div><br>
+
+    <div>
+        <img src='./images/5573.png'><br>
+        Predicted_before_training: IOS<br>
+        Predicted_after_training: IOS<br>
+        Ground Truth: delivered
+    </div><br>
+
+    <div>
+        <img src='./images/5574.png'><br>
+        Predicted_before_training: HARMILAP<br>
+        Predicted_after_training: HARMILAP<br>
+        Ground Truth: only
+    </div><br>
+
+    <div>
+        <img src='./images/5591.png'><br>
+        Predicted_before_training: AUTHORISED<br>
+        Predicted_after_training: AUTHORISED<br>
+        Ground Truth: IGST
+    </div><br>
+
+    <div>
+        <img src='./images/5599.png'><br>
+        Predicted_before_training: DISTRIBUTOR<br>
+        Predicted_after_training: DISTRIBUTOR<br>
+        Ground Truth: 643.10
+    </div><br>
+
+    <div>
+        <img src='./images/5615.png'><br>
+        Predicted_before_training: OF<br>
+        Predicted_after_training: OF<br>
+        Ground Truth: charges-
+    </div><br>
+
+    <div>
+        <img src='./images/562.png'><br>
+        Predicted_before_training: OF<br>
+        Predicted_after_training: OF<br>
+        Ground Truth: KUMAR
+    </div><br>
+
+    <div>
+        <img src='./images/5632.png'><br>
+        Predicted_before_training: BOSCH,<br>
+        Predicted_after_training: BOSCH,<br>
+        Ground Truth: delivery
+    </div><br>
+
+    <div>
+        <img src='./images/5633.png'><br>
+        Predicted_before_training: Tax<br>
+        Predicted_after_training: Tax<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/5639.png'><br>
+        Predicted_before_training: 03AGHPK7425L1ZA<br>
+        Predicted_after_training: 03AGHPK7425L1ZA<br>
+        Ground Truth: been
+    </div><br>
+
+    <div>
+        <img src='./images/5641.png'><br>
+        Predicted_before_training: Ratti<br>
+        Predicted_after_training: Ratti<br>
+        Ground Truth: to
+    </div><br>
+
+    <div>
+        <img src='./images/5649.png'><br>
+        Predicted_before_training: Invoice<br>
+        Predicted_after_training: lnvoice<br>
+        Ground Truth: IOS
+    </div><br>
+
+    <div>
+        <img src='./images/5660.png'><br>
+        Predicted_before_training: CTL-154<br>
+        Predicted_after_training: CTL-154<br>
+        Ground Truth: HARMILAP
+    </div><br>
+
+    <div>
+        <img src='./images/5683.png'><br>
+        Predicted_before_training: Order<br>
+        Predicted_after_training: Order<br>
+        Ground Truth: l
+    </div><br>
+
+    <div>
+        <img src='./images/5689.png'><br>
+        Predicted_before_training: Delivery<br>
+        Predicted_after_training: Delivery<br>
+        Ground Truth: AUTHORISED
+    </div><br>
+
+    <div>
+        <img src='./images/5690.png'><br>
+        Predicted_before_training: M12X160<br>
+        Predicted_after_training: M12X160<br>
+        Ground Truth: DISTRIBUTOR
+    </div><br>
+
+    <div>
+        <img src='./images/5691.png'><br>
+        Predicted_before_training: ROUND<br>
+        Predicted_after_training: ROUND<br>
+        Ground Truth: OF
+    </div><br>
+
+    <div>
+        <img src='./images/5694.png'><br>
+        Predicted_before_training: OFF<br>
+        Predicted_after_training: OFF<br>
+        Ground Truth: OFS
+    </div><br>
+
+    <div>
+        <img src='./images/5697.png'><br>
+        Predicted_before_training: 12,326.50<br>
+        Predicted_after_training: 12,326.50<br>
+        Ground Truth: BOSCH,
+    </div><br>
+
+    <div>
+        <img src='./images/5701.png'><br>
+        Predicted_before_training: &<br>
+        Predicted_after_training: &<br>
+        Ground Truth: Tax
+    </div><br>
+
+    <div>
+        <img src='./images/5736.png'><br>
+        Predicted_before_training: IFS<br>
+        Predicted_after_training: IFS<br>
+        Ground Truth: 03AGHPK7425L1ZA
+    </div><br>
+
+    <div>
+        <img src='./images/5749.png'><br>
+        Predicted_before_training: Thirty<br>
+        Predicted_after_training: Thirty<br>
+        Ground Truth: Ratti
+    </div><br>
+
+    <div>
+        <img src='./images/5765.png'><br>
+        Predicted_before_training: Bill<br>
+        Predicted_after_training: Bill<br>
+        Ground Truth: Invoice
+    </div><br>
+
+    <div>
+        <img src='./images/5767.png'><br>
+        Predicted_before_training: Rupees<br>
+        Predicted_after_training: Rupees<br>
+        Ground Truth: CTL-154
+    </div><br>
+
+    <div>
+        <img src='./images/5774.png'><br>
+        Predicted_before_training: Four<br>
+        Predicted_after_training: Four<br>
+        Ground Truth: Order
+    </div><br>
+
+    <div>
+        <img src='./images/5785.png'><br>
+        Predicted_before_training: leakage.<br>
+        Predicted_after_training: leakage.<br>
+        Ground Truth: Delivery
+    </div><br>
+
+    <div>
+        <img src='./images/5797.png'><br>
+        Predicted_before_training: price<br>
+        Predicted_after_training: price<br>
+        Ground Truth: M12X160
+    </div><br>
+
+    <div>
+        <img src='./images/5810.png'><br>
+        Predicted_before_training: Ltd<br>
+        Predicted_after_training: Ltd<br>
+        Ground Truth: ROUND
+    </div><br>
+
+    <div>
+        <img src='./images/5811.png'><br>
+        Predicted_before_training: transit<br>
+        Predicted_after_training: transit<br>
+        Ground Truth: OFF
+    </div><br>
+
+    <div>
+        <img src='./images/5819.png'><br>
+        Predicted_before_training: for<br>
+        Predicted_after_training: for<br>
+        Ground Truth: 12,326.50
+    </div><br>
+
+    <div>
+        <img src='./images/5839.png'><br>
+        Predicted_before_training: Signatory<br>
+        Predicted_after_training: Signatory<br>
+        Ground Truth: &
+    </div><br>
+
+    <div>
+        <img src='./images/5840.png'><br>
+        Predicted_before_training: PROOFING<br>
+        Predicted_after_training: PROOFING<br>
+        Ground Truth: IFS
+    </div><br>
+
+    <div>
+        <img src='./images/5854.png'><br>
+        Predicted_before_training: (Original<br>
+        Predicted_after_training: (Original<br>
+        Ground Truth: Thirty
+    </div><br>
+
+    <div>
+        <img src='./images/586.png'><br>
+        Predicted_before_training: MASATAATONAN<br>
+        Predicted_after_training: samagmasmamasaruoigm<br>
+        Ground Truth: Bill
+    </div><br>
+
+    <div>
+        <img src='./images/5885.png'><br>
+        Predicted_before_training: 06AASFR271801ZF<br>
+        Predicted_after_training: 06AASFR271801ZF<br>
+        Ground Truth: Rupees
+    </div><br>
+
+    <div>
+        <img src='./images/5886.png'><br>
+        Predicted_before_training: AASFR2718Q<br>
+        Predicted_after_training: AASFR2718Q<br>
+        Ground Truth: Four
+    </div><br>
+
+    <div>
+        <img src='./images/5900.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: leakage.
+    </div><br>
+
+    <div>
+        <img src='./images/5909.png'><br>
+        Predicted_before_training: Pkts:-<br>
+        Predicted_after_training: Pkts:-<br>
+        Ground Truth: price
+    </div><br>
+
+    <div>
+        <img src='./images/5917.png'><br>
+        Predicted_before_training: GUPTA<br>
+        Predicted_after_training: GUPTA<br>
+        Ground Truth: Ltd
+    </div><br>
+
+    <div>
+        <img src='./images/5946.png'><br>
+        Predicted_before_training: GSTIN<br>
+        Predicted_after_training: GSTIN<br>
+        Ground Truth: transit
+    </div><br>
+
+    <div>
+        <img src='./images/5961.png'><br>
+        Predicted_before_training: Pradesh<br>
+        Predicted_after_training: Pradesh<br>
+        Ground Truth: for
+    </div><br>
+
+    <div>
+        <img src='./images/5965.png'><br>
+        Predicted_before_training: 350<br>
+        Predicted_after_training: 350<br>
+        Ground Truth: Signatory
+    </div><br>
+
+    <div>
+        <img src='./images/5980.png'><br>
+        Predicted_before_training: Goods/Services<br>
+        Predicted_after_training: Goods/Services<br>
+        Ground Truth: PROOFING
+    </div><br>
+
+    <div>
+        <img src='./images/6006.png'><br>
+        Predicted_before_training: 18.00<br>
+        Predicted_after_training: 18.00<br>
+        Ground Truth: (Original
+    </div><br>
+
+    <div>
+        <img src='./images/6025.png'><br>
+        Predicted_before_training: :SECTOR<br>
+        Predicted_after_training: :SECTOR<br>
+        Ground Truth: M.987853990,9779333990,9501036239
+    </div><br>
+
+    <div>
+        <img src='./images/6035.png'><br>
+        Predicted_before_training: FOUR<br>
+        Predicted_after_training: FOUR<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/6036.png'><br>
+        Predicted_before_training: (INDIA)<br>
+        Predicted_after_training: (INDIA)<br>
+        Ground Truth: 06AASFR271801ZF
+    </div><br>
+
+    <div>
+        <img src='./images/6039.png'><br>
+        Predicted_before_training: ceases<br>
+        Predicted_after_training: ceases<br>
+        Ground Truth: AASFR2718Q
+    </div><br>
+
+    <div>
+        <img src='./images/6044.png'><br>
+        Predicted_before_training: of<br>
+        Predicted_after_training: of<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/6070.png'><br>
+        Predicted_before_training: 18%<br>
+        Predicted_after_training: 18%<br>
+        Ground Truth: Pkts:-
+    </div><br>
+
+    <div>
+        <img src='./images/6080.png'><br>
+        Predicted_before_training: is<br>
+        Predicted_after_training: is<br>
+        Ground Truth: GUPTA
+    </div><br>
+
+    <div>
+        <img src='./images/6088.png'><br>
+        Predicted_before_training: dealings<br>
+        Predicted_after_training: dealings<br>
+        Ground Truth: GSTIN
+    </div><br>
+
+    <div>
+        <img src='./images/6093.png'><br>
+        Predicted_before_training: Branch<br>
+        Predicted_after_training: Branch<br>
+        Ground Truth: Pradesh
+    </div><br>
+
+    <div>
+        <img src='./images/6102.png'><br>
+        Predicted_before_training: panchkula<br>
+        Predicted_after_training: panchkula<br>
+        Ground Truth: 350
+    </div><br>
+
+    <div>
+        <img src='./images/6113.png'><br>
+        Predicted_before_training: SADAR<br>
+        Predicted_after_training: SADAR<br>
+        Ground Truth: Goods/Services
+    </div><br>
+
+    <div>
+        <img src='./images/612.png'><br>
+        Predicted_before_training: 35<br>
+        Predicted_after_training: 35<br>
+        Ground Truth: 18.00
+    </div><br>
+
+    <div>
+        <img src='./images/6141.png'><br>
+        Predicted_before_training: RO<br>
+        Predicted_after_training: RO<br>
+        Ground Truth: :SECTOR
+    </div><br>
+
+    <div>
+        <img src='./images/6181.png'><br>
+        Predicted_before_training: CGST<br>
+        Predicted_after_training: CGST<br>
+        Ground Truth: FOUR
+    </div><br>
+
+    <div>
+        <img src='./images/6190.png'><br>
+        Predicted_before_training: SA<br>
+        Predicted_after_training: SA<br>
+        Ground Truth: (INDIA)
+    </div><br>
+
+    <div>
+        <img src='./images/6194.png'><br>
+        Predicted_before_training: Service<br>
+        Predicted_after_training: Service<br>
+        Ground Truth: ceases
+    </div><br>
+
+    <div>
+        <img src='./images/6197.png'><br>
+        Predicted_before_training: SHIP'<br>
+        Predicted_after_training: SHIP<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/6219.png'><br>
+        Predicted_before_training: INFO<br>
+        Predicted_after_training: INFO<br>
+        Ground Truth: 18%
+    </div><br>
+
+    <div>
+        <img src='./images/6228.png'><br>
+        Predicted_before_training: GSTIN<br>
+        Predicted_after_training: GSTIN<br>
+        Ground Truth: is
+    </div><br>
+
+    <div>
+        <img src='./images/6238.png'><br>
+        Predicted_before_training: :<br>
+        Predicted_after_training: :<br>
+        Ground Truth: dealings
+    </div><br>
+
+    <div>
+        <img src='./images/623.png'><br>
+        Predicted_before_training: Cust.<br>
+        Predicted_after_training: Cust.<br>
+        Ground Truth: Branch
+    </div><br>
+
+    <div>
+        <img src='./images/6242.png'><br>
+        Predicted_before_training: Model<br>
+        Predicted_after_training: Model<br>
+        Ground Truth: panchkula
+    </div><br>
+
+    <div>
+        <img src='./images/6251.png'><br>
+        Predicted_before_training: 12:37:50<br>
+        Predicted_after_training: 12:37:50<br>
+        Ground Truth: SADAR
+    </div><br>
+
+    <div>
+        <img src='./images/626.png'><br>
+        Predicted_before_training: BS3:<br>
+        Predicted_after_training: BS3:<br>
+        Ground Truth: 35
+    </div><br>
+
+    <div>
+        <img src='./images/6299.png'><br>
+        Predicted_before_training: Part/Lab<br>
+        Predicted_after_training: PartLab<br>
+        Ground Truth: RO
+    </div><br>
+
+    <div>
+        <img src='./images/62.png'><br>
+        Predicted_before_training: Qty-<br>
+        Predicted_after_training: Qty.<br>
+        Ground Truth: CGST
+    </div><br>
+
+    <div>
+        <img src='./images/6303.png'><br>
+        Predicted_before_training: Rate<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: SA
+    </div><br>
+
+    <div>
+        <img src='./images/6309.png'><br>
+        Predicted_before_training: %<br>
+        Predicted_after_training: %<br>
+        Ground Truth: Service
+    </div><br>
+
+    <div>
+        <img src='./images/6319.png'><br>
+        Predicted_before_training: 14<br>
+        Predicted_after_training: 14<br>
+        Ground Truth: SHIP
+    </div><br>
+
+    <div>
+        <img src='./images/6322.png'><br>
+        Predicted_before_training: 274.22<br>
+        Predicted_after_training: 274.22<br>
+        Ground Truth: INFO
+    </div><br>
+
+    <div>
+        <img src='./images/6324.png'><br>
+        Predicted_before_training: 14<br>
+        Predicted_after_training: 14<br>
+        Ground Truth: GSTIN:
+    </div><br>
+
+    <div>
+        <img src='./images/6326.png'><br>
+        Predicted_before_training: of.<br>
+        Predicted_after_training: of.<br>
+        Ground Truth: Cust.
+    </div><br>
+
+    <div>
+        <img src='./images/6356.png'><br>
+        Predicted_before_training: Grand<br>
+        Predicted_after_training: Grand<br>
+        Ground Truth: I
+    </div><br>
+
+    <div>
+        <img src='./images/6362.png'><br>
+        Predicted_before_training: Totall<br>
+        Predicted_after_training: Totall<br>
+        Ground Truth: Mudel
+    </div><br>
+
+    <div>
+        <img src='./images/6372.png'><br>
+        Predicted_before_training: Qty<br>
+        Predicted_after_training: Qty<br>
+        Ground Truth: 12:37:50
+    </div><br>
+
+    <div>
+        <img src='./images/6373.png'><br>
+        Predicted_before_training: Customer<br>
+        Predicted_after_training: Customer<br>
+        Ground Truth: BS3
+    </div><br>
+
+    <div>
+        <img src='./images/6419.png'><br>
+        Predicted_before_training: reverse<br>
+        Predicted_after_training: reverse<br>
+        Ground Truth: Part/Lab
+    </div><br>
+
+    <div>
+        <img src='./images/6422.png'><br>
+        Predicted_before_training: (<br>
+        Predicted_after_training: t<br>
+        Ground Truth: aty.
+    </div><br>
+
+    <div>
+        <img src='./images/6429.png'><br>
+        Predicted_before_training: Reference<br>
+        Predicted_after_training: Reference<br>
+        Ground Truth: Rate%
+    </div><br>
+
+    <div>
+        <img src='./images/6444.png'><br>
+        Predicted_before_training: 0.00<br>
+        Predicted_after_training: 0.00<br>
+        Ground Truth: 14
+    </div><br>
+
+    <div>
+        <img src='./images/6458.png'><br>
+        Predicted_before_training: State<br>
+        Predicted_after_training: State<br>
+        Ground Truth: 274.22
+    </div><br>
+
+    <div>
+        <img src='./images/6463.png'><br>
+        Predicted_before_training: 2020.05.23<br>
+        Predicted_after_training: 2020.05.23<br>
+        Ground Truth: 14
+    </div><br>
+
+    <div>
+        <img src='./images/6468.png'><br>
+        Predicted_before_training: generated<br>
+        Predicted_after_training: generated<br>
+        Ground Truth: of
+    </div><br>
+
+    <div>
+        <img src='./images/6470.png'><br>
+        Predicted_before_training: GUPTA<br>
+        Predicted_after_training: GUPTA<br>
+        Ground Truth: Grand
+    </div><br>
+
+    <div>
+        <img src='./images/6479.png'><br>
+        Predicted_before_training: EWAY<br>
+        Predicted_after_training: EWAY<br>
+        Ground Truth: Totall
+    </div><br>
+
+    <div>
+        <img src='./images/6484.png'><br>
+        Predicted_before_training: :<br>
+        Predicted_after_training: :<br>
+        Ground Truth: aty
+    </div><br>
+
+    <div>
+        <img src='./images/6495.png'><br>
+        Predicted_before_training: 23/08/2020<br>
+        Predicted_after_training: 23/08/2020<br>
+        Ground Truth: Customer
+    </div><br>
+
+    <div>
+        <img src='./images/6508.png'><br>
+        Predicted_before_training: 87089900<br>
+        Predicted_after_training: 87089900<br>
+        Ground Truth: reverse
+    </div><br>
+
+    <div>
+        <img src='./images/6510.png'><br>
+        Predicted_before_training: 14.00<br>
+        Predicted_after_training: 14.00<br>
+        Ground Truth: Reference
+    </div><br>
+
+    <div>
+        <img src='./images/6517.png'><br>
+        Predicted_before_training: %<br>
+        Predicted_after_training: %<br>
+        Ground Truth: 0.00
+    </div><br>
+
+    <div>
+        <img src='./images/6524.png'><br>
+        Predicted_before_training: 81.72<br>
+        Predicted_after_training: 81.72<br>
+        Ground Truth: State
+    </div><br>
+
+    <div>
+        <img src='./images/6538.png'><br>
+        Predicted_before_training: Add<br>
+        Predicted_after_training: Add<br>
+        Ground Truth: 2020.05.23
+    </div><br>
+
+    <div>
+        <img src='./images/6553.png'><br>
+        Predicted_before_training: Rate<br>
+        Predicted_after_training: Rate<br>
+        Ground Truth: generated
+    </div><br>
+
+    <div>
+        <img src='./images/6588.png'><br>
+        Predicted_before_training: Amt.<br>
+        Predicted_after_training: Amt.<br>
+        Ground Truth: GUPTA
+    </div><br>
+
+    <div>
+        <img src='./images/6595.png'><br>
+        Predicted_before_training: Signatory<br>
+        Predicted_after_training: Signatory<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/6607.png'><br>
+        Predicted_before_training: ceases<br>
+        Predicted_after_training: ceases<br>
+        Ground Truth: EWAY
+    </div><br>
+
+    <div>
+        <img src='./images/6611.png'><br>
+        Predicted_before_training: to<br>
+        Predicted_after_training: to<br>
+        Ground Truth: :23/08/2020
+    </div><br>
+
+    <div>
+        <img src='./images/6633.png'><br>
+        Predicted_before_training: at<br>
+        Predicted_after_training: at<br>
+        Ground Truth: 87089900
+    </div><br>
+
+    <div>
+        <img src='./images/6640.png'><br>
+        Predicted_before_training: conditions<br>
+        Predicted_after_training: conditions<br>
+        Ground Truth: 14.00%
+    </div><br>
+
+    <div>
+        <img src='./images/6652.png'><br>
+        Predicted_before_training: be<br>
+        Predicted_after_training: be<br>
+        Ground Truth: 81.72
+    </div><br>
+
+    <div>
+        <img src='./images/6655.png'><br>
+        Predicted_before_training: not<br>
+        Predicted_after_training: not<br>
+        Ground Truth: Add
+    </div><br>
+
+    <div>
+        <img src='./images/6674.png'><br>
+        Predicted_before_training: CHANDIGARH<br>
+        Predicted_after_training: CHANDIGARH<br>
+        Ground Truth: Rate
+    </div><br>
+
+    <div>
+        <img src='./images/6678.png'><br>
+        Predicted_before_training: S.C.F.<br>
+        Predicted_after_training: S.C.F.<br>
+        Ground Truth: Amt.
+    </div><br>
+
+    <div>
+        <img src='./images/6707.png'><br>
+        Predicted_before_training: HARMILAP<br>
+        Predicted_after_training: HARMILAP<br>
+        Ground Truth: Signatory
+    </div><br>
+
+    <div>
+        <img src='./images/677.png'><br>
+        Predicted_before_training: PREM<br>
+        Predicted_after_training: PREM<br>
+        Ground Truth: ceases
+    </div><br>
+
+    <div>
+        <img src='./images/682.png'><br>
+        Predicted_before_training: Amt<br>
+        Predicted_after_training: Amt<br>
+        Ground Truth: to
+    </div><br>
+
+    <div>
+        <img src='./images/684.png'><br>
+        Predicted_before_training: Phone<br>
+        Predicted_after_training: Phone<br>
+        Ground Truth: at
+    </div><br>
+
+    <div>
+        <img src='./images/697.png'><br>
+        Predicted_before_training: CHANDIGARH<br>
+        Predicted_after_training: CHANDIGARH<br>
+        Ground Truth: conditions
+    </div><br>
+
+    <div>
+        <img src='./images/707.png'><br>
+        Predicted_before_training: TRADE<br>
+        Predicted_after_training: TRADE<br>
+        Ground Truth: be
+    </div><br>
+
+    <div>
+        <img src='./images/713.png'><br>
+        Predicted_before_training: Other<br>
+        Predicted_after_training: Other<br>
+        Ground Truth: not
+    </div><br>
+
+    <div>
+        <img src='./images/734.png'><br>
+        Predicted_before_training: Dated<br>
+        Predicted_after_training: Dated<br>
+        Ground Truth: CHANDIGARH
+    </div><br>
+
+    <div>
+        <img src='./images/737.png'><br>
+        Predicted_before_training: 24<br>
+        Predicted_after_training: 24<br>
+        Ground Truth: S.C.F.
+    </div><br>
+
+    <div>
+        <img src='./images/743.png'><br>
+        Predicted_before_training: C.F.<br>
+        Predicted_after_training: C.F.<br>
+        Ground Truth: HARMILAP
+    </div><br>
+
+    <div>
+        <img src='./images/744.png'><br>
+        Predicted_before_training: 184.32<br>
+        Predicted_after_training: 184.32<br>
+        Ground Truth: PREM
+    </div><br>
+
+    <div>
+        <img src='./images/74.png'><br>
+        Predicted_before_training: E-Mail<br>
+        Predicted_after_training: E-Mail<br>
+        Ground Truth: Amt
+    </div><br>
+
+    <div>
+        <img src='./images/753.png'><br>
+        Predicted_before_training: Site<br>
+        Predicted_after_training: Site<br>
+        Ground Truth: Phone
+    </div><br>
+
+    <div>
+        <img src='./images/757.png'><br>
+        Predicted_before_training: Order<br>
+        Predicted_after_training: Order<br>
+        Ground Truth: :
+    </div><br>
+
+    <div>
+        <img src='./images/764.png'><br>
+        Predicted_before_training: 81.72<br>
+        Predicted_after_training: 81.72<br>
+        Ground Truth: CHANDIGARH_TRADE
+    </div><br>
+
+    <div>
+        <img src='./images/799.png'><br>
+        Predicted_before_training: Total<br>
+        Predicted_after_training: Total<br>
+        Ground Truth: Other
+    </div><br>
+
+    <div>
+        <img src='./images/801.png'><br>
+        Predicted_before_training: SUB<br>
+        Predicted_after_training: SUB<br>
+        Ground Truth: Dated
+    </div><br>
+
+    <div>
+        <img src='./images/80.png'><br>
+        Predicted_before_training: No.<br>
+        Predicted_after_training: No.<br>
+        Ground Truth: 24
+    </div><br>
+
+    <div>
+        <img src='./images/812.png'><br>
+        Predicted_before_training: 1..00<br>
+        Predicted_after_training: 1..00<br>
+        Ground Truth: C.F.
+    </div><br>
+
+    <div>
+        <img src='./images/813.png'><br>
+        Predicted_before_training: Tax<br>
+        Predicted_after_training: Tax<br>
+        Ground Truth: -
+    </div><br>
+
+    <div>
+        <img src='./images/81.png'><br>
+        Predicted_before_training: 583.68<br>
+        Predicted_after_training: 583.68<br>
+        Ground Truth: 184.32
+    </div><br>
+
+    <div>
+        <img src='./images/834.png'><br>
+        Predicted_before_training: Thousand<br>
+        Predicted_after_training: Thousand<br>
+        Ground Truth: E-Mail
+    </div><br>
+
+    <div>
+        <img src='./images/843.png'><br>
+        Predicted_before_training: Pradesh.INDIA<br>
+        Predicted_after_training: Pradesh.INDIA<br>
+        Ground Truth: Site
+    </div><br>
+
+    <div>
+        <img src='./images/866.png'><br>
+        Predicted_before_training: <br>
+        Predicted_after_training: <br>
+        Ground Truth: Order
+    </div><br>
+
+</body>
+
+</html>
